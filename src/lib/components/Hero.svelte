@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { base } from '$app/paths';
 	import { messages } from '$lib/i18n';
 	import { reveal } from '$lib/actions/reveal';
 	import { ArrowRight, Mail, ChevronDown, Code2, Sparkles, Download } from '@lucide/svelte';
@@ -61,7 +62,7 @@
 			<div class="relative overflow-hidden rounded-[2rem] border border-base-300/60 bg-base-100 p-3 shadow-2xl shadow-primary/10 transition-shadow duration-500 hover:shadow-3xl hover:shadow-primary/15">
 				<div class="overflow-hidden rounded-[1.4rem] bg-gradient-to-br from-primary/10 via-base-200 to-accent/10">
 					<img
-						src="/photo.jpeg"
+						src="{base}/photo.jpeg"
 						alt="Yunior Barceló"
 						class="aspect-[4/4.6] w-full object-cover object-top transition-transform duration-700 hover:scale-105"
 						loading="eager"
