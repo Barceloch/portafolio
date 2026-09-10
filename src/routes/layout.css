@@ -1,0 +1,206 @@
+@import 'tailwindcss';
+
+@plugin "daisyui" {
+	themes: light --default, dark --prefersdark;
+}
+
+/* Tema claro */
+@plugin "daisyui/theme" {
+	name: 'light';
+	default: true;
+	prefersdark: false;
+	color-scheme: light;
+
+	--color-primary: #1e40af;
+	--color-primary-content: #f8fafc;
+	--color-secondary: #f1f5f9;
+	--color-secondary-content: #1e293b;
+	--color-accent: #be123c;
+	--color-accent-content: #fff1f2;
+	--color-neutral: #1e293b;
+	--color-neutral-content: #f8fafc;
+	--color-base-100: #f8fafc;
+	--color-base-200: #f1f5f9;
+	--color-base-300: #e2e8f0;
+	--color-base-content: #1e293b;
+	--color-info: #1e40af;
+	--color-success: #047857;
+	--color-warning: #b45309;
+	--color-error: #be123c;
+	--radius-selector: 0.75rem;
+	--radius-field: 0.5rem;
+	--radius-box: 1rem;
+}
+
+/* Tema oscuro */
+@plugin "daisyui/theme" {
+	name: 'dark';
+	default: false;
+	prefersdark: true;
+	color-scheme: dark;
+
+	--color-primary: #60a5fa;
+	--color-primary-content: #0f172a;
+	--color-secondary: #1e293b;
+	--color-secondary-content: #f1f5f9;
+	--color-accent: #fb7185;
+	--color-accent-content: #4c0519;
+	--color-neutral: #1e293b;
+	--color-neutral-content: #f1f5f9;
+	--color-base-100: #0f172a;
+	--color-base-200: #1e293b;
+	--color-base-300: #334155;
+	--color-base-content: #f1f5f9;
+	--color-info: #60a5fa;
+	--color-success: #34d399;
+	--color-warning: #fbbf24;
+	--color-error: #fb7185;
+	--radius-selector: 0.75rem;
+	--radius-field: 0.5rem;
+	--radius-box: 1rem;
+}
+
+/* ─── Tipografía base ───────────────────────────────────────────── */
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 5rem;
+}
+
+body {
+	font-family: 'Inter', system-ui, -apple-system, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 1.0625rem;
+	line-height: 1.75;
+	letter-spacing: 0.01em;
+}
+
+/* Tipografías más legibles */
+h1, h2, h3, h4, h5, h6 {
+	letter-spacing: -0.02em;
+	line-height: 1.15;
+}
+
+p {
+	line-height: 1.8;
+}
+
+/* ─── Animaciones de entrada (reveal on scroll) ─────────────────── */
+@keyframes fade-in-up {
+	from {
+		opacity: 0;
+		transform: translateY(28px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes fade-in {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+@keyframes scale-in {
+	from {
+		opacity: 0;
+		transform: scale(0.92);
+	}
+	to {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+@keyframes slide-in-left {
+	from {
+		opacity: 0;
+		transform: translateX(-32px);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes slide-in-right {
+	from {
+		opacity: 0;
+		transform: translateX(32px);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes float {
+	0%, 100% { transform: translateY(0); }
+	50% { transform: translateY(-8px); }
+}
+
+@keyframes shimmer {
+	0% { background-position: -200% center; }
+	100% { background-position: 200% center; }
+}
+
+/* ─── Utilidades de animación ───────────────────────────────────── */
+.animate-float {
+	animation: float 4s ease-in-out infinite;
+}
+
+.animate-shimmer {
+	background-size: 200% auto;
+	animation: shimmer 3s linear infinite;
+}
+
+/* Botones más grandes y cómodos */
+.btn-lg {
+	font-size: 1.05rem;
+	padding: 0.875rem 1.75rem;
+	gap: 0.5rem;
+}
+
+/* Cards mejoradas */
+.card {
+	transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+							box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+							border-color 0.35s ease;
+}
+
+.card:hover {
+	transform: translateY(-4px);
+}
+
+/* Badges más grandes */
+.badge {
+	font-size: 0.8125rem;
+	padding: 0.5rem 0.875rem;
+}
+
+/* Sección spacing generoso */
+section {
+	position: relative;
+}
+
+/* Scrollbar suave */
+::-webkit-scrollbar {
+	width: 8px;
+}
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+::-webkit-scrollbar-thumb {
+	background: oklch(var(--bc) / 0.2);
+	border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: oklch(var(--bc) / 0.35);
+}
+
+/* Selection color */
+::selection {
+	background: oklch(var(--p) / 0.25);
+	color: var(--color-base-content);
+}

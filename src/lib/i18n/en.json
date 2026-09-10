@@ -1,0 +1,217 @@
+{
+	"nav": {
+		"logo": "Yunior Barceló",
+		"about": "About",
+		"skills": "Skills",
+		"projects": "Projects",
+		"location": "Availability",
+		"contact": "Contact"
+	},
+	"common": {
+		"downloadCv": "Download CV",
+		"madeWithLeft": "Made with",
+		"madeWithRight": "and SvelteKit"
+	},
+	"hero": {
+		"badge": "Available for remote work",
+		"name": "Yunior Barceló Chávez",
+		"title": "Full Stack Developer",
+		"description": "Building robust, scalable and efficient digital solutions.",
+		"ctaProjects": "View Projects",
+		"ctaContact": "Get in touch",
+		"scroll": "Scroll to explore"
+	},
+	"about": {
+		"title": "About Me",
+		"subtitle": "Full Stack Developer & Scalable Web Solutions Specialist",
+		"p1": "Although my academic background is in Law, my true passion and my 15+ year career are in technology. I specialize in designing robust web architectures, efficient business logic and high-performance user experiences, leveraging my analytical mindset to adapt quickly and deliver digital solutions that generate real value.",
+		"p2": "Since 2007 I've worked in network administration and development, with a strong focus on Free Software (GNU/Linux). I presented on Free Software migration at UCIENCIA 2012.",
+		"p3": "Today my focus is on creating solutions that help businesses grow, optimize their processes and make the most of digital opportunities. I care about understanding each problem before looking for a solution, using the most appropriate tools for each situation. I am also exploring new areas and possibilities with artificial intelligence, seeking not only to add value to every project, but also to keep growing and evolving as a professional.",
+		"cards": {
+			"freeSoftware": {
+				"title": "Free Software",
+				"desc": "GNU/Linux focus since 2007. Network administration, migration and talks at UCIENCIA 2012."
+			},
+			"focus": {
+				"title": "Current Focus",
+				"desc": "Async APIs with Starlette + Pydantic + MongoDB/Motor. Modern frontends with Svelte, Next.js and Vue."
+			},
+			"education": {
+				"title": "Education",
+				"desc": "Law degree · Self-taught in computing · Joven Club courses · Continuous AI-First learning"
+			}
+		},
+		"stats": {
+			"experience": "Years of experience",
+			"experienceValue": "17+",
+			"projects": "Projects delivered",
+			"projectsValue": "15+",
+			"tech": "Technologies mastered",
+			"techValue": "30+"
+		}
+	},
+	"skills": {
+		"title": "Skills",
+		"subtitle": "Versatile stack, from systems to artificial intelligence",
+		"categories": {
+			"languages": "Languages",
+			"frameworks": "Frameworks & CMS",
+			"data": "Data & Backend",
+			"devops": "DevOps & Infra",
+			"advanced": "Advanced & AI"
+		},
+		"languages": ["C/C++", "Go", "Python", "JavaScript", "PHP"],
+		"frameworks": ["Odoo", "Django", "FastAPI", "Flask", "Echo (Go)", "WordPress", "CakePHP", "Laravel", "Next.js", "Vue", "Svelte", "Quasar"],
+		"data": ["SQL", "NoSQL (MongoDB)", "Firebase", "Appwrite", "Strapi", "Corteza Server"],
+		"devops": ["Git", "Docker", "AWS", "VPS", "cPanel", "hPanel", "CI/CD Pipelines"],
+		"advanced": ["Kubernetes", "Apache Kafka", "TensorFlow", "n8n", "AI-First — thorough review of agent-generated code"]
+	},
+	"projects": {
+		"title": "Projects",
+		"subtitle": "Selected work across web, mobile and open source",
+		"filterAll": "All",
+		"filterWeb": "Web",
+		"filterMobile": "Mobile",
+		"filterOSS": "Open Source",
+		"viewLive": "Live site",
+		"viewCode": "View code",
+		"items": [
+			{
+				"title": "WCigars",
+				"category": "Web",
+				"description": "Premium e-commerce for Cuban cigars. Svelte frontend with optimized shopping experience.",
+				"stack": ["Svelte", "Tailwind", "Stripe"],
+				"link": "https://wcigars.com/",
+				"github": null
+			},
+			{
+				"title": "Moreno Premium",
+				"category": "Web",
+				"description": "High-impact corporate site for a premium brand. Built with Elementor, WooCommerce catalog and deep customization.",
+				"stack": ["WordPress", "Elementor", "WooCommerce"],
+				"link": "https://morenopremium.com/",
+				"github": null
+			},
+			{
+				"title": "Sofisticato Design",
+				"category": "Web",
+				"description": "Portfolio for interior design studio. Custom Gutenberg blocks, interactive gallery and responsive design with Elementor.",
+				"stack": ["WordPress", "Elementor", "Gutenberg", "WooCommerce"],
+				"link": "https://sofisticatodesign.com/",
+				"github": null
+			},
+			{
+				"title": "Miami Experience Tours",
+				"category": "Web",
+				"description": "Tour booking platform in Miami. Payment gateway and real-time calendar integration.",
+				"stack": ["WordPress", "WooCommerce", "PHP"],
+				"link": "https://miamiexperiencetours.com/",
+				"github": null
+			},
+			{
+				"title": "Alamo Building Materials",
+				"category": "Web",
+				"description": "Corporate site for a Texas building materials company. Catalog & quote builder.",
+				"stack": ["WordPress", "Elementor", "PHP"],
+				"link": "https://alamobuildingmaterials.com/",
+				"github": null
+			},
+			{
+				"title": "APKLIS — barcelo",
+				"category": "Mobile",
+				"description": "Verified developer on APKLIS (Cuban Android store). Native apps with thousands of downloads.",
+				"stack": ["Android", "Java", "APKLIS"],
+				"link": "https://www.apklis.cu/developer/barcelo",
+				"github": null
+			},
+			{
+				"title": "RegCEl-M",
+				"category": "Mobile",
+				"description": "Mobile app for registry and control. Built with Kivy/Python for Android.",
+				"stack": ["Python", "Kivy", "SQLite"],
+				"link": "#",
+				"github": "https://github.com/Barceloch/regcel_M"
+			},
+			{
+				"title": "Yayabo Linux",
+				"category": "Open Source",
+				"description": "Remastered Cuban GNU/Linux distro. Optimized for low-resource environments.",
+				"stack": ["Linux", "Debian", "Bash"],
+				"link": "https://www.ecured.cu/Yayabo_Linux",
+				"github": null
+			},
+			{
+				"title": "Heysiweb",
+				"category": "Open Source",
+				"description": "Educational web platform built with Django. Content and user management.",
+				"stack": ["Django", "Python", "PostgreSQL"],
+				"link": "#",
+				"github": "https://github.com/Barceloch/heysiweb"
+			},
+			{
+				"title": "RegCEl (C++/Qt4)",
+				"category": "Open Source",
+				"description": "Desktop app for record management. Native Qt4 interface.",
+				"stack": ["C++", "Qt4", "SQLite"],
+				"link": "#",
+				"github": "https://github.com/Barceloch/regcel"
+			},
+			{
+				"title": "cu_delivery_filter",
+				"category": "Open Source",
+				"description": "Odoo plugin that optimizes delivery filters for logistics in Cuba.",
+				"stack": ["Odoo", "Python", "PostgreSQL"],
+				"link": "#",
+				"github": "https://github.com/Barceloch/cu_delivery_filter"
+			},
+			{
+				"title": "MarketRey",
+				"category": "Web",
+				"description": "Collaborative online store built with S-Cart (Laravel e-commerce). Catalog, cart, payment gateway and admin panel.",
+				"stack": ["Laravel", "S-Cart", "PHP", "MySQL"],
+				"link": "https://www.marketrey.com/",
+				"github": null
+			},
+			{
+				"title": "Entregado",
+				"category": "Web",
+				"description": "Collaborative messaging and delivery platform built with Laravel. Shipment management, real-time tracking and admin dashboard.",
+				"stack": ["Laravel", "PHP", "MySQL", "JavaScript"],
+				"link": "https://entregado.pixelalt.com/",
+				"github": null
+			}
+		]
+	},
+	"location": {
+		"badge": "Professional note",
+		"title": "Location & Work Mode",
+		"description": "I currently reside in Cuba and am available for remote, hybrid or on-site opportunities. I seek a long-term professional relationship where I can contribute my experience in software development, infrastructure and web technologies.\n\nI am especially interested in opportunities that involve international relocation or work-visa sponsorship, although I am open to any professional proposal that represents a good collaboration opportunity.",
+		"highlight": {
+			"chip": "Remote · Cuba → World",
+			"title": "Long-term remote work",
+			"desc": "Stable contract, effective async communication and commitment to quality deliverables.",
+			"timezone": "Timezone",
+			"remote": "Remote",
+			"available": "Available",
+			"footnote": "Cuba · Stable environment. Goal: a contract that enables a visa/legal relocation if the project requires it."
+		},
+		"points": [
+			{ "title": "Flexible work mode", "desc": "Remote, hybrid or on-site depending on the role" },
+			{ "title": "Stable environment", "desc": "Proper working conditions and power backup" },
+			{ "title": "Reliable connectivity", "desc": "Consistently stable internet for remote work" },
+			{ "title": "International relocation", "desc": "Interested in relocation, visa or work residency" }
+		],
+		"cta": "Let's discuss your project"
+	},
+	"footer": {
+		"tagline": "Full Stack Developer. Clean code, scalable architecture.",
+		"links": "Links",
+		"contact": "Contact",
+		"rights": "Built with SvelteKit, Tailwind CSS & DaisyUI.",
+		"built": "Static site • SEO optimized • Deployed on Netlify"
+	},
+	"seo": {
+		"title": "Yunior Barceló — Full Stack Developer",
+		"description": "Portfolio of Yunior Barceló. Full Stack Developer with experience in Python, Svelte, AWS and scalable architectures. 17+ years of experience."
+	}
+}
