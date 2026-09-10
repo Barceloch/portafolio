@@ -5,14 +5,14 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 const config = {
 	preprocess: vitePreprocess(),
 	kit: {
-		// ⚠️ IMPORTANTE: El nombre debe coincidir EXACTAMENTE con tu repositorio
-		paths: {
-			base: '/portafolio' 
-		},
 		adapter: adapter({
-			fallback: '404.html', // Vital para que funcionen las rutas al recargar
+			fallback: '404.html', // Vital para rutas SPA en GitHub Pages
 			precompress: true
-		})
+		}),
+		paths: {
+			// ⚠️ Esto debe ser el nombre exacto de tu repositorio
+			base: '/portafolio' 
+		}
 	}
 };
 
