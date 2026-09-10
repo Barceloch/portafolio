@@ -1,25 +1,18 @@
 import adapter from '@sveltejs/adapter-static';
+import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	compilerOptions: {
-		runes: true
-	},
+	preprocess: vitePreprocess(),
 	kit: {
-		adapter: adapter({
-			pages: 'build',
-			assets: 'build',
-			fallback: '404.html',
-			precompress: true,
-			strict: true
-		}),
+		// ⚠️ IMPORTANTE: El nombre debe coincidir EXACTAMENTE con tu repositorio
 		paths: {
-			// para GitHub Pages si el repo no es user.github.io, descomentar y ajustar:
-			// base: process.env.BASE_PATH ? `/${process.env.BASE_PATH}` : ''
+			base: '/portafolio' 
 		},
-		prerender: {
-			entries: ['*']
-		}
+		adapter: adapter({
+			fallback: '404.html', // Vital para que funcionen las rutas al recargar
+			precompress: true
+		})
 	}
 };
 
