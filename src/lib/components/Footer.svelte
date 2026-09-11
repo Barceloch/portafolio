@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { messages } from '$lib/i18n';
 	import { reveal } from '$lib/actions/reveal';
+	import { base } from '$app/paths';
 	import { Mail, Smartphone, Heart, Download } from '@lucide/svelte';
 
 	let m = $derived($messages);
@@ -47,7 +48,7 @@
 						<Mail class="h-4 w-4" />
 						Email
 					</a>
-					<a href="/cv_ENG.pdf" target="_blank" rel="noopener" download class="btn btn-sm btn-outline border-white/20 text-white hover:bg-white hover:text-neutral gap-2.5 font-semibold transition-all duration-300">
+					<a href="{base}/cv_ENG.pdf" target="_blank" rel="noopener" download class="btn btn-sm btn-outline border-white/20 text-white hover:bg-white hover:text-neutral gap-2.5 font-semibold transition-all duration-300">
 						<Download class="h-4 w-4" />
 						CV
 					</a>

@@ -1,7 +1,7 @@
 <script lang="ts">
-    import { base } from '$app/paths';
 	import { messages } from '$lib/i18n';
 	import { reveal } from '$lib/actions/reveal';
+	import { base } from '$app/paths';
 	import { ArrowRight, Mail, ChevronDown, Code2, Sparkles, Download } from '@lucide/svelte';
 
 	let m = $derived($messages);
@@ -45,7 +45,7 @@
 					<Mail class="h-5 w-5" />
 					{m.hero.ctaContact}
 				</a>
-				<a href="/cv_ENG.pdf" target="_blank" rel="noopener" download class="btn btn-ghost btn-lg gap-2.5 border border-base-300 bg-base-100 transition-all duration-300 hover:scale-[1.02] hover:border-primary/30 hover:bg-primary/5">
+				<a href="{base}/cv_ENG.pdf" target="_blank" rel="noopener" download class="btn btn-ghost btn-lg gap-2.5 border border-base-300 bg-base-100 transition-all duration-300 hover:scale-[1.02] hover:border-primary/30 hover:bg-primary/5">
 					<Download class="h-5 w-5" />
 					{m.common.downloadCv}
 				</a>

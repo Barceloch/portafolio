@@ -30,15 +30,15 @@
 		"cards": {
 			"freeSoftware": {
 				"title": "Software Libre",
-				"desc": "Enfoque en GNU/Linux desde 2007. Administración de redes, migración y charlas en UCIENCIA 2012."
+				"desc": "Desde 2007, explorando GNU/Linux y el ecosistema del software libre. Experiencia en administración de sistemas, redes, servidores y soluciones basadas en tecnologías abiertas."
 			},
 			"focus": {
-				"title": "Enfoque Actual",
-				"desc": "APIs asíncronas con Starlette + Pydantic + MongoDB/Motor. Frontends modernos con Svelte, Next.js y Vue."
+				"title": "Experiencia y Evolución",
+				"desc": "Más de 15 años explorando diferentes áreas de la informática, desarrollando soluciones para necesidades reales y adaptándome continuamente a nuevas tecnologías y formas de trabajo."
 			},
 			"education": {
 				"title": "Formación",
-				"desc": "Lic. en Derecho · Autodidacta en informática · Cursos Joven Club · Aprendizaje continuo AI-First"
+				"desc": "Licenciado en Derecho · Formación en los Joven Club de Computación · Certificaciones de la UCI · Formación profesional continua · Aprendizaje autodidacta constante."
 			}
 		},
 		"stats": {
@@ -208,7 +208,7 @@
 		"links": "Enlaces",
 		"contact": "Contacto",
 		"rights": "Hecho con SvelteKit, Tailwind CSS y DaisyUI.",
-		"built": "Sitio estático • SEO optimizado • Desplegado en Netlify"
+		"built": "Sitio estático • SEO optimizado • Desplegado en GitHub Pages"
 	},
 	"seo": {
 		"title": "Yunior Barceló — Desarrollador Full Stack",

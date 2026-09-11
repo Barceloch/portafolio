@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { messages, locale, setLocale } from '$lib/i18n';
 	import type { Locale } from '$lib/i18n';
+	import { base } from '$app/paths';
 	import { Menu, X, Sun, Moon, Globe, Download } from '@lucide/svelte';
 
 	let m = $derived($messages);
@@ -50,7 +51,7 @@
 		: 'bg-base-100/60 backdrop-blur-md border-transparent'}"
 >
 	<div class="mx-auto flex w-full max-w-6xl items-center justify-between px-4 lg:px-6">
-		<a href="/" class="group flex items-center gap-2.5 font-bold tracking-tight">
+		<a href="{base}/" class="group flex items-center gap-2.5 font-bold tracking-tight">
 			<span class="flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-primary-content text-sm font-black shadow-md shadow-primary/20 transition-shadow group-hover:shadow-lg group-hover:shadow-primary/30">YB</span>
 			<span class="text-[1.1rem]">Yunior Barceló</span>
 			<span class="hidden text-primary font-light text-xl sm:inline">.</span>
@@ -61,7 +62,7 @@
 			<a href="#skills" class="btn btn-ghost btn-sm font-semibold text-[0.9rem]">{m.nav.skills}</a>
 			<a href="#projects" class="btn btn-ghost btn-sm font-semibold text-[0.9rem]">{m.nav.projects}</a>
 			<a href="#location" class="btn btn-ghost btn-sm font-semibold text-[0.9rem]">{m.nav.location}</a>
-			<a href="/cv_ENG.pdf" target="_blank" rel="noopener" download class="btn btn-ghost btn-sm font-semibold text-[0.9rem] gap-1.5">
+			<a href="{base}/cv_ENG.pdf" target="_blank" rel="noopener" download class="btn btn-ghost btn-sm font-semibold text-[0.9rem] gap-1.5">
 				<Download class="h-3.5 w-3.5" />
 				CV
 			</a>
@@ -98,7 +99,7 @@
 				</ul>
 			</div>
 
-			<a href="/cv_ENG.pdf" target="_blank" rel="noopener" download class="btn btn-ghost btn-sm btn-circle sm:hidden" aria-label="Download CV">
+			<a href="{base}/cv_ENG.pdf" target="_blank" rel="noopener" download class="btn btn-ghost btn-sm btn-circle sm:hidden" aria-label="Download CV">
 				<Download class="h-4 w-4" />
 			</a>
 
@@ -130,7 +131,7 @@
 				<a href="#skills" onclick={closeMenu} class="btn btn-ghost justify-start text-base font-semibold">{m.nav.skills}</a>
 				<a href="#projects" onclick={closeMenu} class="btn btn-ghost justify-start text-base font-semibold">{m.nav.projects}</a>
 				<a href="#location" onclick={closeMenu} class="btn btn-ghost justify-start text-base font-semibold">{m.nav.location}</a>
-				<a href="/cv_ENG.pdf" target="_blank" rel="noopener" download onclick={closeMenu} class="btn btn-ghost justify-start text-base font-semibold gap-2">
+				<a href="{base}/cv_ENG.pdf" target="_blank" rel="noopener" download onclick={closeMenu} class="btn btn-ghost justify-start text-base font-semibold gap-2">
 					<Download class="h-4 w-4" />
 					{m.common.downloadCv}
 				</a>
