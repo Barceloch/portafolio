@@ -54,6 +54,15 @@
 					</a>
 				</div>
 				<p class="mt-5 text-sm opacity-50">barceloch@gmail.com<br />Cuba · UTC-5</p>
+				<div class="mt-4 flex items-center gap-2 opacity-70 transition-opacity hover:opacity-100">
+					<span class="text-sm font-medium">{m.footer.visits}</span>
+					<img
+						src="https://visitor-badge.laobi.icu/badge?page_id=barceloch.portafolio&left_color=gray&right_color=blue"
+						alt="Contador de visitas"
+						class="h-5 w-auto"
+						loading="lazy"
+					/>
+				</div>
 			</div>
 		</div>
 

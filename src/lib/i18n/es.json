@@ -27,6 +27,7 @@
 		"p1": "Aunque mi formación académica es en Derecho, mi verdadera pasión y mi trayectoria de más de 15 años están en la tecnología. Me especializo en diseñar arquitecturas web robustas, lógica de negocio eficiente y experiencias de usuario de alto rendimiento, aprovechando mi pensamiento analítico para adaptarme rápidamente y entregar soluciones digitales que generan valor real.",
 		"p2": "Desde 2007 trabajo en administración de redes y desarrollo, con un fuerte enfoque en Software Libre (GNU/Linux). He participado en eventos como la UCIENCIA 2012 presentando sobre migración a Software Libre.",
 		"p3": "Actualmente, mi enfoque está en crear soluciones que ayuden a los negocios a crecer, optimizar sus procesos y aprovechar mejor las oportunidades digitales. Me interesa entender cada problema antes de buscar una solución, utilizando las herramientas más adecuadas para cada situación. También estoy explorando nuevas áreas y posibilidades con la inteligencia artificial, buscando no solo aportar valor a cada proyecto, sino también continuar creciendo y evolucionando como profesional.",
+		"p4": "Poseo una sólida habilidad para dominar nuevas tecnologías mediante el estudio de documentación oficial, cursos especializados y tutoriales avanzados. Más allá de la teoría, mi experiencia práctica incluye la depuración profunda de sistemas: analizo logs detallados, investigo errores complejos y gestiono soluciones técnicas de forma independiente, lo que me permite adaptarme rápidamente a cualquier stack tecnológico y resolver incidencias críticas con eficiencia.",
 		"cards": {
 			"freeSoftware": {
 				"title": "Software Libre",
@@ -60,10 +61,10 @@
 			"devops": "DevOps & Infra",
 			"advanced": "Avanzado & IA"
 		},
-		"languages": ["C/C++", "Go", "Python", "JavaScript", "PHP"],
-		"frameworks": ["Odoo", "Django", "FastAPI", "Flask", "Echo (Go)", "WordPress", "CakePHP", "Laravel", "Next.js", "Vue", "Svelte", "Quasar"],
+		"languages": ["C/C++", "Go", "Java", "Python", "JavaScript", "PHP", "Bash"],
+		"frameworks": ["Odoo", "ERPNext", "Django", "FastAPI", "Flask", "Echo (Go)", "WordPress", "CakePHP", "Laravel", "Next.js", "Vue", "Svelte", "Quasar", "React", "jQuery", "Astro", "Kivy/KivyMD", "Sketchware", "MIT App Inventor", "Android Studio", "QT", "GTK", "Tkinter"],
 		"data": ["SQL", "NoSQL (MongoDB)", "Firebase", "Appwrite", "Strapi", "Corteza Server"],
-		"devops": ["Git", "Docker", "AWS", "VPS", "cPanel", "hPanel", "Pipelines CI/CD"],
+		"devops": ["Git", "Docker", "AWS", "VPS", "cPanel", "hPanel", "Pipelines CI/CD", "Pfsense", "Proxmox", "Zentyal"],
 		"advanced": ["Kubernetes", "Apache Kafka", "TensorFlow", "n8n", "AI-First — revisión exhaustiva de código generado por agentes"]
 	},
 	"projects": {
@@ -95,7 +96,7 @@
 			{
 				"title": "Sofisticato Design",
 				"category": "Web",
-				"description": "Portfolio para estudio de diseño interior. Bloques Gutenberg personalizados, galería interactiva y diseño responsive con Elementor.",
+				"description": "Sitio web de diseño para marcas de tabaco: anillos de cigarros, humidores y accesorios. Bloques Gutenberg personalizados, galería interactiva y diseño responsive con Elementor.",
 				"stack": ["WordPress", "Elementor", "Gutenberg", "WooCommerce"],
 				"link": "https://sofisticatodesign.com/",
 				"github": null
@@ -208,7 +209,8 @@
 		"links": "Enlaces",
 		"contact": "Contacto",
 		"rights": "Hecho con SvelteKit, Tailwind CSS y DaisyUI.",
-		"built": "Sitio estático • SEO optimizado • Desplegado en GitHub Pages"
+		"built": "Sitio estático • SEO optimizado • Desplegado en GitHub Pages",
+		"visits": "Visitas al portafolio:"
 	},
 	"seo": {
 		"title": "Yunior Barceló — Desarrollador Full Stack",

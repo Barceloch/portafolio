@@ -27,6 +27,7 @@
 		"p1": "Although my academic background is in Law, my true passion and my 15+ year career are in technology. I specialize in designing robust web architectures, efficient business logic and high-performance user experiences, leveraging my analytical mindset to adapt quickly and deliver digital solutions that generate real value.",
 		"p2": "Since 2007 I've worked in network administration and development, with a strong focus on Free Software (GNU/Linux). I presented on Free Software migration at UCIENCIA 2012.",
 		"p3": "Today my focus is on creating solutions that help businesses grow, optimize their processes and make the most of digital opportunities. I care about understanding each problem before looking for a solution, using the most appropriate tools for each situation. I am also exploring new areas and possibilities with artificial intelligence, seeking not only to add value to every project, but also to keep growing and evolving as a professional.",
+		"p4": "I have a solid ability to master new technologies by studying official documentation, specialized courses and advanced tutorials. Beyond theory, my hands-on experience includes deep system debugging: I analyze detailed logs, investigate complex errors and manage technical solutions independently, which lets me adapt quickly to any tech stack and resolve critical issues efficiently.",
 		"cards": {
 			"freeSoftware": {
 				"title": "Free Software",
@@ -60,10 +61,10 @@
 			"devops": "DevOps & Infra",
 			"advanced": "Advanced & AI"
 		},
-		"languages": ["C/C++", "Go", "Python", "JavaScript", "PHP"],
-		"frameworks": ["Odoo", "Django", "FastAPI", "Flask", "Echo (Go)", "WordPress", "CakePHP", "Laravel", "Next.js", "Vue", "Svelte", "Quasar"],
+		"languages": ["C/C++", "Go", "Java", "Python", "JavaScript", "PHP", "Bash"],
+		"frameworks": ["Odoo", "ERPNext", "Django", "FastAPI", "Flask", "Echo (Go)", "WordPress", "CakePHP", "Laravel", "Next.js", "Vue", "Svelte", "Quasar", "React", "jQuery", "Astro", "Kivy/KivyMD", "Sketchware", "MIT App Inventor", "Android Studio", "QT", "GTK", "Tkinter"],
 		"data": ["SQL", "NoSQL (MongoDB)", "Firebase", "Appwrite", "Strapi", "Corteza Server"],
-		"devops": ["Git", "Docker", "AWS", "VPS", "cPanel", "hPanel", "CI/CD Pipelines"],
+		"devops": ["Git", "Docker", "AWS", "VPS", "cPanel", "hPanel", "CI/CD Pipelines", "Pfsense", "Proxmox", "Zentyal"],
 		"advanced": ["Kubernetes", "Apache Kafka", "TensorFlow", "n8n", "AI-First — thorough review of agent-generated code"]
 	},
 	"projects": {
@@ -95,7 +96,7 @@
 			{
 				"title": "Sofisticato Design",
 				"category": "Web",
-				"description": "Portfolio for interior design studio. Custom Gutenberg blocks, interactive gallery and responsive design with Elementor.",
+				"description": "Design website for tobacco brands: cigar rings, humidors and accessories. Custom Gutenberg blocks, interactive gallery and responsive design with Elementor.",
 				"stack": ["WordPress", "Elementor", "Gutenberg", "WooCommerce"],
 				"link": "https://sofisticatodesign.com/",
 				"github": null
@@ -208,7 +209,8 @@
 		"links": "Links",
 		"contact": "Contact",
 		"rights": "Built with SvelteKit, Tailwind CSS & DaisyUI.",
-		"built": "Static site • SEO optimized • Deployed on GitHub Pages"
+		"built": "Static site • SEO optimized • Deployed on GitHub Pages",
+		"visits": "Portfolio visits:"
 	},
 	"seo": {
 		"title": "Yunior Barceló — Full Stack Developer",

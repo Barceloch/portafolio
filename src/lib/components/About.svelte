@@ -22,6 +22,7 @@
 				<p class="text-lg leading-[1.85] text-base-content/75">{m.about.p1}</p>
 				<p class="text-lg leading-[1.85] text-base-content/75">{m.about.p2}</p>
 				<p class="text-lg leading-[1.85] text-base-content/75">{m.about.p3}</p>
+				<p class="text-lg leading-[1.85] text-base-content/75">{m.about.p4}</p>
 
 				<div class="grid grid-cols-3 gap-4 pt-6">
 					<div class="rounded-2xl border border-base-300 bg-base-200/40 p-5 text-center transition-all duration-300 hover:shadow-lg hover:border-primary/30">
