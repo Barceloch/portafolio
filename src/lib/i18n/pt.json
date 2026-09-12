@@ -59,13 +59,15 @@
 			"frameworks": "Frameworks & CMS",
 			"data": "Dados & Backend",
 			"devops": "DevOps & Infra",
-			"advanced": "Avançado & IA"
+			"advanced": "Avançado & IA",
+			"design": "Design & Produto"
 		},
 		"languages": ["C/C++", "Go", "Java", "Python", "JavaScript", "PHP", "Bash"],
 		"frameworks": ["Odoo", "ERPNext", "Django", "FastAPI", "Flask", "Echo (Go)", "WordPress", "CakePHP", "Laravel", "Next.js", "Vue", "Svelte", "Quasar", "React", "jQuery", "Astro", "Kivy/KivyMD", "Sketchware", "MIT App Inventor", "Android Studio", "QT", "GTK", "Tkinter"],
 		"data": ["SQL", "NoSQL (MongoDB)", "Firebase", "Appwrite", "Strapi", "Corteza Server"],
 		"devops": ["Git", "Docker", "AWS", "VPS", "cPanel", "hPanel", "Pipelines CI/CD", "Pfsense", "Proxmox", "Zentyal"],
-		"advanced": ["Kubernetes", "Apache Kafka", "TensorFlow", "n8n", "AI-First — revisão rigorosa de código gerado por agentes"]
+		"advanced": ["Kubernetes", "Apache Kafka", "TensorFlow", "n8n", "AI-First — revisão rigorosa de código gerado por agentes"],
+		"design": ["UX/UI", "Figma", "Design Systems", "Wireframes", "Protótipos", "Responsive Design", "Tipografia", "Cor", "Acessibilidade"]
 	},
 	"projects": {
 		"title": "Projetos",

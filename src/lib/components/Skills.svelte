@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { messages } from '$lib/i18n';
 	import { reveal } from '$lib/actions/reveal';
-	import { Code2, Layers, Database, Server, Brain, Check } from '@lucide/svelte';
+	import { Code2, Layers, Database, Server, Brain, Palette, Check } from '@lucide/svelte';
 
 	let m = $derived($messages);
 
@@ -45,6 +45,14 @@
 			items: m.skills.advanced as unknown as string[],
 			color: 'bg-gradient-to-br from-primary to-accent text-white',
 			glow: 'shadow-primary/20'
+		},
+		{
+			key: 'design',
+			icon: Palette,
+			title: m.skills.categories.design,
+			items: m.skills.design as unknown as string[],
+			color: 'bg-secondary text-secondary-content',
+			glow: 'shadow-secondary/20'
 		}
 	]);
 </script>
