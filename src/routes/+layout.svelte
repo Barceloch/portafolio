@@ -29,4 +29,9 @@
 	<link rel="canonical" href="https://yuniorbarcelo.dev" />
 </svelte:head>
 
+<div
+	aria-hidden="true"
+	class="gridlines pointer-events-none fixed inset-0 z-[45] opacity-60"
+></div>
+
 {@render children()}

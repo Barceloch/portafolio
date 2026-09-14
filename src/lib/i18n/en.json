@@ -15,8 +15,8 @@
 	"hero": {
 		"badge": "Available for remote work",
 		"name": "Yunior Barceló Chávez",
-		"title": "Full Stack Developer",
-		"description": "Building robust, scalable and efficient digital solutions.",
+		"title": "Digital Solutions",
+		"description": "I design, develop and integrate technology to turn ideas into real products.",
 		"ctaProjects": "View Projects",
 		"ctaContact": "Get in touch",
 		"scroll": "Scroll to explore"
@@ -62,8 +62,8 @@
 			"advanced": "Advanced & AI",
 			"design": "Design & Product"
 		},
-		"languages": ["C/C++", "Go", "Java", "Python", "JavaScript", "PHP", "Bash"],
-		"frameworks": ["Odoo", "ERPNext", "Django", "FastAPI", "Flask", "Echo (Go)", "WordPress", "CakePHP", "Laravel", "Next.js", "Vue", "Svelte", "Quasar", "React", "jQuery", "Astro", "Kivy/KivyMD", "Sketchware", "MIT App Inventor", "Android Studio", "QT", "GTK", "Tkinter"],
+		"languages": ["C/C++", "Go", "Java", "Python", "JavaScript", "PHP", "Bash", "HTML", "CSS"],
+		"frameworks": ["Odoo", "ERPNext", "Django", "FastAPI", "Flask", "Echo (Go)", "WordPress", "CakePHP", "Laravel", "Next.js", "Vue", "Svelte", "Quasar", "React", "jQuery", "Astro", "Kivy/KivyMD", "Sketchware", "MIT App Inventor", "Android Studio", "QT", "GTK", "Tkinter", "Tailwind CSS", "Bootstrap"],
 		"data": ["SQL", "NoSQL (MongoDB)", "Firebase", "Appwrite", "Strapi", "Corteza Server"],
 		"devops": ["Git", "Docker", "AWS", "VPS", "cPanel", "hPanel", "CI/CD Pipelines", "Pfsense", "Proxmox", "Zentyal"],
 		"advanced": ["Kubernetes", "Apache Kafka", "TensorFlow", "n8n", "AI-First — thorough review of agent-generated code"],

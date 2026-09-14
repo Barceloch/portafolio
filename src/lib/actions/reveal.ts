@@ -1,52 +1,66 @@
-import type { Action } from 'svelte/action';
+import { browser } from '$app/environment';
 
-interface RevealOptions {
-	delay?: number;
-	duration?: number;
-	y?: number;
-	distance?: number;
-	once?: boolean;
-	threshold?: number;
+interface RevealOpts {
+    delay?: number;
+    direction?: 'up' | 'down' | 'left' | 'right' | 'none';
+    distance?: number;
+    once?: boolean;
+    threshold?: number;
+    rootMargin?: string;
 }
 
-export const reveal: Action<HTMLElement, RevealOptions | undefined> = (node, options) => {
-	const {
-		delay = 0,
-		duration = 600,
-		y = 24,
-		distance = 0,
-		once = true,
-		threshold = 0.15
-	} = options ?? {};
+const EASE = 'cubic-bezier(0.22, 1, 0.36, 1)';
 
-	const translateY = y ?? distance;
+export function reveal(node: HTMLElement, opts: RevealOpts = {}) {
+    if (!browser) return;
 
-	node.style.opacity = '0';
-	node.style.transform = `translateY(${translateY}px)`;
-	node.style.transition = `opacity ${duration}ms cubic-bezier(0.16, 1, 0.3, 1) ${delay}ms, transform ${duration}ms cubic-bezier(0.16, 1, 0.3, 1) ${delay}ms`;
-	node.style.willChange = 'opacity, transform';
+    const {
+        delay = 0,
+        direction = 'up',
+        distance = 30,
+        once = true,
+        threshold = 0.18,
+        rootMargin = '0px 0px -48px 0px'
+    } = opts;
 
-	const observer = new IntersectionObserver(
-		(entries) => {
-			for (const entry of entries) {
-				if (entry.isIntersecting) {
-					node.style.opacity = '1';
-					node.style.transform = 'translateY(0)';
-					if (once) observer.unobserve(node);
-				} else if (!once) {
-					node.style.opacity = '0';
-					node.style.transform = `translateY(${translateY}px)`;
-				}
-			}
-		},
-		{ threshold }
-	);
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
-	observer.observe(node);
+    let start = 'translate3d(0,0,0)';
+    if (direction === 'up') start = `translate3d(0,${distance}px,0)`;
+    else if (direction === 'down') start = `translate3d(0,${-distance}px,0)`;
+    else if (direction === 'left') start = `translate3d(${distance}px,0,0)`;
+    else if (direction === 'right') start = `translate3d(${-distance}px,0,0)`;
 
-	return {
-		destroy() {
-			observer.disconnect();
-		}
-	};
-};
+    node.style.opacity = '0';
+    node.style.transform = start;
+    node.style.transition = `opacity 0.75s ${EASE} ${delay}ms, transform 0.75s ${EASE} ${delay}ms`;
+
+    const io = new IntersectionObserver(
+        (entries) => {
+            if (entries[0].isIntersecting) {
+                node.style.opacity = '1';
+                node.style.transform = 'translate3d(0,0,0)';
+                if (once) io.disconnect();
+            } else if (!once) {
+                node.style.opacity = '0';
+                node.style.transform = start;
+            }
+        },
+        { threshold, rootMargin }
+    );
+
+    io.observe(node);
+
+    return {
+        destroy() {
+            io.disconnect();
+        },
+        update(newOpts: RevealOpts = {}) {
+            io.unobserve(node);
+            const updates = { ...opts, ...newOpts };
+            node.style.opacity = '1';
+            node.style.transform = 'translate3d(0,0,0)';
+            return reveal(node, updates);
+        }
+    };
+}
