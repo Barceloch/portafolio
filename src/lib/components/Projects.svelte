@@ -35,7 +35,7 @@
 		<div use:reveal class="mt-12 flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
 			<div class="max-w-2xl">
 				<h2 class="text-4xl font-light tracking-[-0.03em] text-base-content sm:text-5xl">{m.projects.title}</h2>
-				<p class="mt-4 text-xl text-base-content/80">{m.projects.subtitle}</p>
+				<p class="mt-4 text-lg text-base-content/80">{m.projects.subtitle}</p>
 			</div>
 
 			<div class="flex flex-wrap gap-2">
@@ -82,7 +82,7 @@
 							{project.title}
 						</h3>
 
-						<p class="mt-3 text-[1rem] leading-relaxed text-base-content/80 line-clamp-3">
+						<p class="mt-3 text-[0.95rem] leading-relaxed text-base-content/80 line-clamp-3">
 							{project.description}
 						</p>
 

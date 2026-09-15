@@ -31,7 +31,7 @@
 	<div class="pointer-events-none absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-base-100 to-transparent z-10"></div>
 	<div class="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-gradient-to-l from-base-100 to-transparent"></div>
 
-	<div bind:this={track} class="flex w-max whitespace-nowrap font-mono text-[0.78rem] uppercase tracking-[0.3em] text-base-content/80">
+	<div bind:this={track} class="flex w-max whitespace-nowrap font-mono text-[0.72rem] uppercase tracking-[0.3em] text-base-content/80">
 		{#each items as item}
 			<span class="flex items-center gap-10 pr-10">
 				<span class="flex items-center gap-2.5 transition-colors hover:text-primary">

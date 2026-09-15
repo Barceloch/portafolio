@@ -62,7 +62,7 @@
 
 		<div use:reveal class="mt-12 max-w-2xl">
 			<h2 class="text-4xl font-light tracking-[-0.03em] text-base-content sm:text-5xl">{m.skills.title}</h2>
-			<p class="mt-4 text-xl text-base-content/80">{m.skills.subtitle}</p>
+			<p class="mt-4 text-lg text-base-content/80">{m.skills.subtitle}</p>
 		</div>
 
 		<div class="skills-grid mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
@@ -86,14 +86,14 @@
 							{#each cat.items as item}
 								{#if iconFor(item)}
 									<span
-										class="badge badge-outline gap-2.5 rounded-full border-base-300 bg-base-200/40 py-3.5 pl-3 pr-3.5 font-mono text-[0.75rem] font-medium uppercase tracking-wider transition-colors duration-300 hover:border-primary/40"
+										class="badge badge-outline gap-2.5 rounded-full border-base-300 bg-base-200/40 py-3.5 pl-3 pr-3.5 font-mono text-[0.72rem] font-medium uppercase tracking-wider transition-colors duration-300 hover:border-primary/40"
 										style="color: {skillColors[item]}"
 									>
 										<span class="block h-3.5 w-3.5">{@html iconFor(item)!}</span>
 										{item}
 									</span>
 								{:else}
-									<span class="badge badge-outline gap-2 rounded-full border-base-300 bg-base-200/40 py-3.5 pl-3 font-mono text-[0.75rem] font-medium uppercase tracking-wider text-base-content/80 transition-colors duration-300 hover:border-primary/40 hover:text-primary">
+									<span class="badge badge-outline gap-2 rounded-full border-base-300 bg-base-200/40 py-3.5 pl-3 font-mono text-[0.72rem] font-medium uppercase tracking-wider text-base-content/80 transition-colors duration-300 hover:border-primary/40 hover:text-primary">
 										<span class="block h-1.5 w-1.5 shrink-0 rounded-full bg-current opacity-60"></span>
 										{item}
 									</span>

@@ -100,10 +100,10 @@
 
 			<div use:reveal={{ direction: 'none' }}>
 				<div class="space-y-5">
-					<p class="text-xl leading-[1.85] text-base-content/80">{m.about.p1}</p>
-					<p class="text-xl leading-[1.85] text-base-content/80">{m.about.p2}</p>
-					<p class="text-xl leading-[1.85] text-base-content/80">{m.about.p3}</p>
-					<p class="text-xl leading-[1.85] text-base-content/80">{m.about.p4}</p>
+					<p class="text-lg leading-[1.85] text-base-content/80">{m.about.p1}</p>
+					<p class="text-lg leading-[1.85] text-base-content/80">{m.about.p2}</p>
+					<p class="text-lg leading-[1.85] text-base-content/80">{m.about.p3}</p>
+					<p class="text-lg leading-[1.85] text-base-content/80">{m.about.p4}</p>
 				</div>
 			</div>
 		</div>
@@ -123,7 +123,7 @@
 						</div>
 						<div class="min-w-0">
 							<h3 class="font-semibold text-base-content">{card.title}</h3>
-							<p class="mt-1.5 text-base leading-relaxed text-base-content/80">{card.desc}</p>
+							<p class="mt-1.5 text-[0.95rem] leading-relaxed text-base-content/80">{card.desc}</p>
 						</div>
 					</div>
 				</div>

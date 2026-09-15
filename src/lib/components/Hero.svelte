@@ -55,7 +55,7 @@
 	<div class="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_60%_50%_at_75%_-10%,rgba(6,182,212,0.10),transparent_60%),radial-gradient(ellipse_45%_40%_at_10%_110%,rgba(34,211,238,0.07),transparent_60%)]"></div>
 
 	<div class="relative mx-auto grid max-w-6xl items-center gap-12 px-4 py-16 sm:px-6 lg:grid-cols-[1.05fr_0.95fr] lg:py-24">
-		<div class="space-y-8">
+		<div class="min-w-0 space-y-8">
 			<div data-hero-intro>
 				<span class="inline-flex items-center gap-2.5 rounded-full border border-base-300 bg-base-200/50 px-4 py-1.5 font-mono text-[0.72rem] uppercase tracking-[0.22em] text-base-content/80">
 					<span class="relative flex h-2 w-2">
@@ -67,37 +67,37 @@
 			</div>
 
 			<div data-hero-intro class="space-y-5">
-				<p class="font-mono text-sm uppercase tracking-[0.3em] text-primary/90">{m.hero.name}</p>
+				<p class="font-mono text-xs uppercase tracking-[0.3em] text-primary/90">{m.hero.name}</p>
 				<h1 class="text-[clamp(2.6rem,7vw,4.9rem)] font-light leading-[1.02] tracking-[-0.035em] text-base-content">
 					{m.hero.title}
 					<span class="ml-1 inline-block h-[0.85em] w-[0.12em] translate-y-[0.08em] bg-primary animate-blink"></span>
 				</h1>
-				<p class="max-w-xl text-xl leading-relaxed text-base-content/80">
+				<p class="max-w-xl text-lg leading-relaxed text-base-content/80">
 					{m.hero.description}
 				</p>
 			</div>
 
-			<div data-hero-intro class="flex flex-wrap gap-3.5">
+			<div data-hero-intro class="flex w-full flex-col gap-3.5 sm:w-auto sm:flex-row sm:flex-wrap">
 				<a
 					href="https://wa.me/5353592879?text=Hi%20Yunior%2C%20I%27d%20like%20to%20discuss%20a%20project."
 					target="_blank"
 					rel="noopener"
-					class="btn btn-primary gap-2.5 font-mono text-xs uppercase tracking-[0.18em] text-primary-content shadow-lg shadow-primary/20 transition-all duration-300 hover:shadow-[0_0_28px_rgba(6,182,212,0.45)]"
+					class="btn btn-primary w-full gap-2.5 font-mono text-xs uppercase tracking-[0.18em] text-primary-content shadow-lg shadow-primary/20 transition-all duration-300 hover:shadow-[0_0_28px_rgba(6,182,212,0.45)] sm:w-auto"
 				>
 					{@html whatsappIcon}
 					{m.location.cta}
 				</a>
-				<a href="#projects" class="btn btn-outline gap-2.5 font-mono text-xs uppercase tracking-[0.18em] border-base-content/15 text-base-content hover:bg-primary/10 hover:border-primary/40 hover:text-primary transition-all duration-300">
+				<a href="#projects" class="btn btn-outline w-full gap-2.5 font-mono text-xs uppercase tracking-[0.18em] border-base-content/15 text-base-content hover:bg-primary/10 hover:border-primary/40 hover:text-primary transition-all duration-300 sm:w-auto">
 					{m.hero.ctaProjects}
 					<ArrowRight class="h-4 w-4" />
 				</a>
-				<a href="{base}/cv_ENG.pdf" target="_blank" rel="noopener" download class="btn btn-ghost gap-2.5 font-mono text-xs uppercase tracking-[0.18em] border border-base-300 text-base-content/80 hover:bg-base-200 hover:text-base-content transition-all duration-300">
+				<a href="{base}/cv_ENG.pdf" target="_blank" rel="noopener" download class="btn btn-ghost w-full gap-2.5 font-mono text-xs uppercase tracking-[0.18em] border border-base-300 text-base-content/80 hover:bg-base-200 hover:text-base-content transition-all duration-300 sm:w-auto">
 					<Download class="h-4 w-4" />
 					{m.common.downloadCv}
 				</a>
 			</div>
 
-			<div data-hero-intro class="flex flex-wrap items-center gap-x-6 gap-y-2 pt-2 font-mono text-[0.78rem] uppercase tracking-[0.2em] text-base-content/70">
+			<div data-hero-intro class="flex flex-wrap items-center gap-x-6 gap-y-2 pt-2 font-mono text-[0.72rem] uppercase tracking-[0.2em] text-base-content/70">
 				<span>cuba :: utc−5</span>
 				<span class="h-3 w-px bg-base-300"></span>
 				<span>go · python · typescript</span>
@@ -109,7 +109,7 @@
 		<div
 			id="hero-panel"
 			data-hero-intro
-			class="relative mx-auto w-full max-w-md lg:ml-auto"
+			class="relative mx-auto w-full max-w-full min-w-0 self-center sm:max-w-md lg:ml-auto lg:self-auto"
 		>
 			<div class="rounded-2xl shell-border p-px shadow-2xl shadow-black/30">
 				<div class="overflow-hidden rounded-[calc(1rem-1px)] bg-base-200/70 backdrop-blur-xl">
@@ -117,12 +117,12 @@
 						<span class="h-2.5 w-2.5 rounded-full bg-error/70"></span>
 						<span class="h-2.5 w-2.5 rounded-full bg-warning/70"></span>
 						<span class="h-2.5 w-2.5 rounded-full bg-success/70"></span>
-						<span class="ml-2 font-mono text-[0.72rem] tracking-widest text-base-content/70">node — barceloch@dev</span>
+						<span class="ml-2 font-mono text-[0.68rem] tracking-widest text-base-content/70">node — barceloch@dev</span>
 						<span class="ml-auto font-mono text-[0.62rem] uppercase tracking-[0.2em] text-success">● online</span>
 					</div>
 
 					<div class="flex gap-4 p-4">
-						<div class="w-40 shrink-0">
+						<div class="w-28 shrink-0 sm:w-40">
 							<div class="overflow-hidden rounded-lg">
 								<img
 									src="{base}/photo.jpeg"
@@ -132,7 +132,7 @@
 								/>
 							</div>
 						</div>
-						<div class="min-w-0 flex-1 font-mono text-[0.82rem] leading-[1.8]">
+						<div class="min-w-0 flex-1 font-mono text-[0.78rem] leading-[1.8]">
 							<p class="text-base-content/75">nombre&nbsp;<span class="text-base-content/40">:&nbsp;</span><span class="text-base-content/85">Yunior Barceló</span></p>
 							<p class="text-base-content/75">rol&nbsp;<span class="text-base-content/40">:&nbsp;</span><span class="text-primary">{m.hero.title}</span></p>
 							<p class="text-base-content/75">base&nbsp;<span class="text-base-content/40">:&nbsp;</span><span class="text-base-content/85">Cuba</span></p>
@@ -145,7 +145,7 @@
 						</div>
 					</div>
 
-					<div class="border-t border-base-300/40 bg-base-100/40 px-4 py-2.5 font-mono text-[0.72rem] text-base-content/75">
+					<div class="border-t border-base-300/40 bg-base-100/40 px-4 py-2.5 font-mono text-[0.7rem] text-base-content/75">
 						<span class="text-success">$</span> &nbsp;git commit -m <span class="text-primary">"open_to_work"</span>
 						<span class="ml-1 inline-block h-3.5 w-[7px] translate-y-[3px] bg-primary animate-blink"></span>
 					</div>

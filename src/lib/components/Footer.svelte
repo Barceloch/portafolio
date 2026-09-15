@@ -25,7 +25,7 @@
 					<span class="flex h-9 w-9 items-center justify-center rounded-lg bg-base-300/80 text-sm font-bold text-primary ring-1 ring-base-300">YB</span>
 					<span class="text-lg text-base-content">barceloch@dev<span class="text-primary">/</span></span>
 				</div>
-				<p class="max-w-md text-lg leading-relaxed text-base-content/80">
+				<p class="max-w-md text-base leading-relaxed text-base-content/80">
 					{m.footer.tagline}
 				</p>
 				<p class="font-mono text-[0.7rem] uppercase tracking-[0.2em] text-base-content/70">{m.footer.built}</p>
@@ -66,15 +66,12 @@
 					</a>
 				</div>
 				<p class="mt-5 font-mono text-[0.78rem] leading-relaxed text-base-content/70">barceloch@gmail.com<br />Cuba · UTC-5</p>
-				<div class="mt-4 flex items-center gap-2 font-mono opacity-70 transition-opacity hover:opacity-100">
-					<span class="text-sm text-base-content/75">{m.footer.visits}</span>
-					<img
-						src="https://visitor-badge.laobi.icu/badge?page_id=barceloch.portafolio&left_color=gray&right_color=blue"
-						alt="Contador de visitas"
-						class="h-5 w-auto"
-						loading="lazy"
-					/>
-				</div>
+				<img
+					src="https://visitor-badge.laobi.icu/badge?page_id=barceloch.portafolio&left_color=gray&right_color=blue"
+					alt="Contador de visitas"
+					class="h-5 w-auto opacity-70 transition-opacity hover:opacity-100"
+					loading="lazy"
+				/>
 			</div>
 		</div>
 

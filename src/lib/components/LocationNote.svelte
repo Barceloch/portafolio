@@ -25,7 +25,7 @@
 						{m.location.badge}
 					</span>
 					<h2 class="mt-6 text-4xl font-light tracking-[-0.03em] text-base-content sm:text-5xl">{m.location.title}</h2>
-					<p class="mt-4 whitespace-pre-line text-xl leading-[1.8] text-base-content/80">
+					<p class="mt-4 whitespace-pre-line text-lg leading-[1.8] text-base-content/80">
 						{m.location.description}
 					</p>
 
@@ -37,7 +37,7 @@
 									<Icon class="h-4 w-4" />
 								</span>
 								<span>
-									<span class="block text-base font-semibold leading-snug text-base-content">{point.title}</span>
+									<span class="block text-[0.95rem] font-semibold leading-snug text-base-content">{point.title}</span>
 									<span class="block text-sm leading-snug text-base-content/80">{point.desc}</span>
 								</span>
 							</li>
