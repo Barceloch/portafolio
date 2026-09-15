@@ -4,6 +4,7 @@
 		"about": "Sobre",
 		"skills": "Habilidades",
 		"projects": "Projetos",
+		"services": "Serviços",
 		"location": "Disponibilidade",
 		"contact": "Contato"
 	},
@@ -63,7 +64,7 @@
 			"design": "Design & Produto"
 		},
 		"languages": ["C/C++", "Go", "Java", "Python", "JavaScript", "PHP", "Bash", "HTML", "CSS"],
-		"frameworks": ["Odoo", "ERPNext", "Django", "FastAPI", "Flask", "Echo (Go)", "WordPress", "CakePHP", "Laravel", "Next.js", "Vue", "Svelte", "Quasar", "React", "jQuery", "Astro", "Kivy/KivyMD", "Sketchware", "MIT App Inventor", "Android Studio", "QT", "GTK", "Tkinter", "Tailwind CSS", "Bootstrap"],
+		"frameworks": ["Odoo", "ERPNext", "Django", "FastAPI", "Flask", "Echo (Go)", "WordPress", "Laravel", "Next.js", "Vue", "Svelte", "Quasar", "React", "jQuery", "Astro", "Kivy/KivyMD", "Sketchware", "MIT App Inventor", "Android Studio", "QT", "GTK", "Tkinter", "Tailwind CSS", "Bootstrap"],
 		"data": ["SQL", "NoSQL (MongoDB)", "Firebase", "Appwrite", "Strapi", "Corteza Server"],
 		"devops": ["Git", "Docker", "AWS", "VPS", "cPanel", "hPanel", "Pipelines CI/CD", "Pfsense", "Proxmox", "Zentyal"],
 		"advanced": ["Kubernetes", "Apache Kafka", "TensorFlow", "n8n", "AI-First — revisão rigorosa de código gerado por agentes"],
@@ -83,7 +84,11 @@
 				"title": "WCigars",
 				"category": "Web",
 				"description": "E-commerce premium para charutos cubanos. Frontend em Svelte com experiência de compra otimizada.",
-				"stack": ["Svelte", "Tailwind", "Stripe"],
+				"stack": [
+					"Svelte",
+					"Tailwind",
+					"Stripe"
+				],
 				"link": "https://wcigars.com/",
 				"github": null
 			},
@@ -91,7 +96,11 @@
 				"title": "Moreno Premium",
 				"category": "Web",
 				"description": "Site corporativo de alto impacto visual para marca premium. Construído com Elementor, catálogo WooCommerce e personalização profunda.",
-				"stack": ["WordPress", "Elementor", "WooCommerce"],
+				"stack": [
+					"WordPress",
+					"Elementor",
+					"WooCommerce"
+				],
 				"link": "https://morenopremium.com/",
 				"github": null
 			},
@@ -99,7 +108,12 @@
 				"title": "Sofisticato Design",
 				"category": "Web",
 				"description": "Site de design para marcas de tabaco: anéis de charuto, umidificadores (humidors) e acessórios. Blocos Gutenberg personalizados, galeria interativa e design responsivo com Elementor.",
-				"stack": ["WordPress", "Elementor", "Gutenberg", "WooCommerce"],
+				"stack": [
+					"WordPress",
+					"Elementor",
+					"Gutenberg",
+					"WooCommerce"
+				],
 				"link": "https://sofisticatodesign.com/",
 				"github": null
 			},
@@ -107,7 +121,11 @@
 				"title": "Miami Experience Tours",
 				"category": "Web",
 				"description": "Plataforma de reservas turísticas em Miami. Integração com gateways de pagamento e calendário em tempo real.",
-				"stack": ["WordPress", "WooCommerce", "PHP"],
+				"stack": [
+					"WordPress",
+					"WooCommerce",
+					"PHP"
+				],
 				"link": "https://miamiexperiencetours.com/",
 				"github": null
 			},
@@ -115,7 +133,11 @@
 				"title": "Alamo Building Materials",
 				"category": "Web",
 				"description": "Site corporativo para empresa de materiais de construção no Texas. Catálogo e gerador de cotações.",
-				"stack": ["WordPress", "Elementor", "PHP"],
+				"stack": [
+					"WordPress",
+					"Elementor",
+					"PHP"
+				],
 				"link": "https://alamobuildingmaterials.com/",
 				"github": null
 			},
@@ -123,7 +145,11 @@
 				"title": "APKLIS — barcelo",
 				"category": "Móvel",
 				"description": "Desenvolvedor verificado na APKLIS (loja cubana de Android). Apps nativos com milhares de downloads.",
-				"stack": ["Android", "Java", "APKLIS"],
+				"stack": [
+					"Android",
+					"Java",
+					"APKLIS"
+				],
 				"link": "https://www.apklis.cu/developer/barcelo",
 				"github": null
 			},
@@ -131,7 +157,11 @@
 				"title": "RegCEl-M",
 				"category": "Móvel",
 				"description": "App móvel para registro e controle. Desenvolvido com Kivy/Python para Android.",
-				"stack": ["Python", "Kivy", "SQLite"],
+				"stack": [
+					"Python",
+					"Kivy",
+					"SQLite"
+				],
 				"link": "#",
 				"github": "https://github.com/Barceloch/regcel_M"
 			},
@@ -139,7 +169,11 @@
 				"title": "Yayabo Linux",
 				"category": "Open Source",
 				"description": "Remasterização de distro GNU/Linux cubana. Otimizada para ambientes com poucos recursos.",
-				"stack": ["Linux", "Debian", "Bash"],
+				"stack": [
+					"Linux",
+					"Debian",
+					"Bash"
+				],
 				"link": "https://www.ecured.cu/Yayabo_Linux",
 				"github": null
 			},
@@ -147,7 +181,11 @@
 				"title": "Heysiweb",
 				"category": "Open Source",
 				"description": "Plataforma web educacional construída com Django. Gestão de conteúdo e usuários.",
-				"stack": ["Django", "Python", "PostgreSQL"],
+				"stack": [
+					"Django",
+					"Python",
+					"PostgreSQL"
+				],
 				"link": "#",
 				"github": "https://github.com/Barceloch/heysiweb"
 			},
@@ -155,7 +193,11 @@
 				"title": "RegCEl (C++/Qt4)",
 				"category": "Open Source",
 				"description": "Aplicativo desktop para gestão de registros. Interface nativa em Qt4.",
-				"stack": ["C++", "Qt4", "SQLite"],
+				"stack": [
+					"C++",
+					"Qt4",
+					"SQLite"
+				],
 				"link": "#",
 				"github": "https://github.com/Barceloch/regcel"
 			},
@@ -163,7 +205,11 @@
 				"title": "cu_delivery_filter",
 				"category": "Open Source",
 				"description": "Plugin para Odoo que otimiza filtros de entrega para logística em Cuba.",
-				"stack": ["Odoo", "Python", "PostgreSQL"],
+				"stack": [
+					"Odoo",
+					"Python",
+					"PostgreSQL"
+				],
 				"link": "#",
 				"github": "https://github.com/Barceloch/cu_delivery_filter"
 			},
@@ -171,7 +217,12 @@
 				"title": "MarketRey",
 				"category": "Web",
 				"description": "Loja online colaborativa desenvolvida com S-Cart (Laravel e-commerce). Catálogo, carrinho, gateway de pagamento e painel de administração.",
-				"stack": ["Laravel", "S-Cart", "PHP", "MySQL"],
+				"stack": [
+					"Laravel",
+					"S-Cart",
+					"PHP",
+					"MySQL"
+				],
 				"link": "https://www.marketrey.com/",
 				"github": null
 			},
@@ -179,11 +230,474 @@
 				"title": "Entregado",
 				"category": "Web",
 				"description": "Plataforma colaborativa de mensagens e entregas desenvolvida com Laravel. Gestão de envios, rastreamento em tempo real e painel de administração.",
-				"stack": ["Laravel", "PHP", "MySQL", "JavaScript"],
+				"stack": [
+					"Laravel",
+					"PHP",
+					"MySQL",
+					"JavaScript"
+				],
 				"link": "https://entregado.pixelalt.com/",
 				"github": null
 			}
 		]
+	},
+	"services": {
+		"overline": "serviços",
+		"title": "Serviços",
+		"subtitle": "Soluções digitais construídas em torno de necessidades reais de negócio.",
+		"categoriesLabel": "categorias",
+		"intro1": "Não começo pela tecnologia.",
+		"intro2": "Começo pelo problema.",
+		"introText": "Desenho e desenvolvo soluções digitais práticas que ajudam empresas a melhorar seus processos, alcançar clientes e crescer.",
+		"categories": [
+			{
+				"key": "web",
+				"num": "01",
+				"tag": "Desenvolvimento Web",
+				"title": "Aplicações web sob medida para seus processos",
+				"summary": "De sites e plataformas de negócio a sistemas backend e modernização de aplicações.",
+				"items": [
+					{
+						"title": "Aplicações Web Sob Medida",
+						"description": "Desenvolvo aplicações web adaptadas aos processos e necessidades específicas do seu negócio.",
+						"tech": [
+							"Laravel",
+							"Django",
+							"FastAPI",
+							"Svelte",
+							"Vue",
+							"React"
+						]
+					},
+					{
+						"title": "Plataformas Web de Negócio",
+						"description": "Desenvolvo plataformas web completas para gerenciar clientes, produtos, usuários, pedidos, dados e processos internos.",
+						"tech": [
+							"PHP",
+							"Python",
+							"Laravel",
+							"Django",
+							"PostgreSQL",
+							"MySQL",
+							"JavaScript"
+						]
+					},
+					{
+						"title": "Desenvolvimento Backend",
+						"description": "Projeto e desenvolvo sistemas backend confiáveis com arquitetura limpa, lógica de negócio e APIs escaláveis.",
+						"tech": [
+							"PHP",
+							"Python",
+							"Go",
+							"Laravel",
+							"Django",
+							"FastAPI"
+						]
+					},
+					{
+						"title": "Modernização de Aplicações",
+						"description": "Melhoro, modernizo ou migro aplicações existentes sem reconstruir tudo do zero.",
+						"tech": [
+							"PHP",
+							"Python",
+							"JavaScript",
+							"Laravel",
+							"Django",
+							"Docker",
+							"Git"
+						]
+					}
+				]
+			},
+			{
+				"key": "ecommerce",
+				"num": "02",
+				"tag": "Ecommerce & WordPress",
+				"title": "Lojas online que realmente vendem",
+				"summary": "Lojas completas, personalização de WooCommerce e integrações conectadas ao seu negócio.",
+				"items": [
+					{
+						"title": "Lojas Online",
+						"description": "Crio lojas online completas com catálogo de produtos, carrinho, checkout, pagamentos e administração.",
+						"tech": [
+							"WordPress",
+							"WooCommerce",
+							"Svelte",
+							"Laravel",
+							"PHP"
+						]
+					},
+					{
+						"title": "Personalização WooCommerce",
+						"description": "Adapto o WooCommerce aos fluxos de trabalho, produtos, processos de checkout e integrações específicos do seu negócio.",
+						"tech": [
+							"WordPress",
+							"WooCommerce",
+							"PHP",
+							"JavaScript"
+						]
+					},
+					{
+						"title": "Integrações Ecommerce",
+						"description": "Conecto lojas online a gateways de pagamento, APIs externas, calendários, sistemas logísticos e serviços de terceiros.",
+						"tech": [
+							"WooCommerce",
+							"PHP",
+							"REST APIs",
+							"JavaScript"
+						]
+					},
+					{
+						"title": "Melhorias de Sites",
+						"description": "Melhoro sites e lojas existentes com mais desempenho, responsividade, usabilidade e funcionalidade.",
+						"tech": [
+							"WordPress",
+							"WooCommerce",
+							"Elementor",
+							"Gutenberg",
+							"PHP",
+							"CSS"
+						]
+					}
+				]
+			},
+			{
+				"key": "erp",
+				"num": "03",
+				"tag": "Sistemas Empresariais & ERP",
+				"title": "Sistemas de gestão que simplificam a operação",
+				"summary": "Odoo, ERPNext e sistemas sob medida adaptados aos seus fluxos de trabalho reais.",
+				"items": [
+					{
+						"title": "Personalização Odoo",
+						"description": "Adapto o Odoo aos fluxos de trabalho e necessidades operacionais reais do seu negócio.",
+						"tech": [
+							"Odoo",
+							"Python",
+							"PostgreSQL",
+							"XML"
+						]
+					},
+					{
+						"title": "Módulos Odoo Sob Medida",
+						"description": "Desenvolvo módulos Odoo personalizados para vendas, estoque, ecommerce, logística e processos de negócio.",
+						"tech": [
+							"Odoo",
+							"Python",
+							"PostgreSQL"
+						]
+					},
+					{
+						"title": "Soluções ERPNext",
+						"description": "Personalizo o ERPNext para centralizar as operações e simplificar a gestão do dia a dia.",
+						"tech": [
+							"ERPNext",
+							"Python",
+							"MariaDB",
+							"JavaScript"
+						]
+					},
+					{
+						"title": "Sistemas Empresariais Sob Medida",
+						"description": "Construo sistemas de gestão focados quando um ERP completo não é necessário ou quando o negócio exige um fluxo muito específico.",
+						"tech": [
+							"Python",
+							"PHP",
+							"Laravel",
+							"Django",
+							"SQL",
+							"JavaScript"
+						]
+					}
+				]
+			},
+			{
+				"key": "backend",
+				"num": "04",
+				"tag": "Backend & Integração de APIs",
+				"title": "Backends confiáveis e sistemas conectados",
+				"summary": "APIs, integrações de terceiros e bancos de dados que mantêm suas aplicações funcionando.",
+				"items": [
+					{
+						"title": "Desenvolvimento de APIs",
+						"description": "Projeto e desenvolvo APIs que conectam aplicações, bancos de dados, apps móveis e serviços externos.",
+						"tech": [
+							"Laravel",
+							"Django",
+							"FastAPI",
+							"Flask",
+							"Go",
+							"REST"
+						]
+					},
+					{
+						"title": "Integrações de Terceiros",
+						"description": "Conecto sua aplicação a plataformas externas, serviços de pagamento, APIs e ferramentas de negócio.",
+						"tech": [
+							"REST APIs",
+							"Webhooks",
+							"PHP",
+							"Python",
+							"JavaScript"
+						]
+					},
+					{
+						"title": "Design e Otimização de Bancos de Dados",
+						"description": "Projeto, migro e otimizo bancos de dados para aplicações confiáveis e eficientes.",
+						"tech": [
+							"PostgreSQL",
+							"MySQL",
+							"SQLite",
+							"MongoDB",
+							"SQL"
+						]
+					}
+				]
+			},
+			{
+				"key": "devops",
+				"num": "05",
+				"tag": "DevOps & Infraestrutura",
+				"title": "Do código a um produto rodando e confiável",
+				"summary": "Deploys, Docker, administração Linux e migrações. Você cuida do negócio, eu da infraestrutura.",
+				"items": [
+					{
+						"title": "Configuração e Deploy em VPS",
+						"description": "Configuro e implanto aplicações web em VPS Linux com serviços prontos para produção.",
+						"tech": [
+							"GNU/Linux",
+							"VPS",
+							"Docker",
+							"Apache",
+							"Git",
+							"AWS"
+						]
+					},
+					{
+						"title": "Docker e Conteinerização",
+						"description": "Conteinerizo aplicações e crio ambientes de desenvolvimento e produção reproduzíveis.",
+						"tech": [
+							"Docker",
+							"Docker Compose",
+							"Linux"
+						]
+					},
+					{
+						"title": "Administração de Servidores Linux",
+						"description": "Configuro, soluciono problemas e mantenho servidores Linux, serviços web, bancos de dados e ambientes de aplicação.",
+						"tech": [
+							"GNU/Linux",
+							"Bash",
+							"Apache",
+							"VPS",
+							"cPanel",
+							"hPanel"
+						]
+					},
+					{
+						"title": "Migração de Aplicações",
+						"description": "Movo sites, aplicações, bancos de dados e serviços entre ambientes de hospedagem com interrupção mínima.",
+						"tech": [
+							"Linux",
+							"Docker",
+							"VPS",
+							"cPanel",
+							"hPanel",
+							"AWS"
+						]
+					},
+					{
+						"title": "CI/CD e Automação de Deploys",
+						"description": "Automatizo fluxos de testes e deploy para entregar software de forma mais rápida e confiável.",
+						"tech": [
+							"Git",
+							"CI/CD",
+							"Docker",
+							"Linux"
+						]
+					}
+				]
+			},
+			{
+				"key": "automation",
+				"num": "06",
+				"tag": "Automação & IA",
+				"title": "Automação e IA aplicadas com critério",
+				"summary": "Automação prática, recursos de IA e revisão rigorosa de código gerado por agentes.",
+				"items": [
+					{
+						"title": "Automação de Negócios",
+						"description": "Automatizo tarefas repetitivas e conecto diferentes ferramentas para reduzir trabalho manual e aumentar a eficiência.",
+						"tech": [
+							"n8n",
+							"APIs",
+							"Webhooks",
+							"Python",
+							"JavaScript"
+						]
+					},
+					{
+						"title": "Aplicações com IA",
+						"description": "Integro capacidades práticas de IA em aplicações e fluxos de negócio onde geram valor real.",
+						"tech": [
+							"AI APIs",
+							"Python",
+							"JavaScript",
+							"REST APIs"
+						]
+					},
+					{
+						"title": "Fluxos de Trabalho Inteligentes",
+						"description": "Combino IA, APIs e ferramentas de automação para criar fluxos que processam informações e executam ações automaticamente.",
+						"tech": [
+							"n8n",
+							"AI",
+							"APIs",
+							"Webhooks"
+						]
+					},
+					{
+						"title": "Desenvolvimento Assistido por IA",
+						"description": "Uso ferramentas modernas de IA para acelerar a implementação mantendo revisão humana, controle de arquitetura e qualidade de código.",
+						"tech": [
+							"AI Coding Tools",
+							"Git",
+							"Code Review"
+						]
+					},
+					{
+						"title": "Revisão de Código Gerado por IA",
+						"description": "Reviso, depuro e melhoro código gerado com ferramentas de IA para identificar erros, problemas de segurança, complexidade desnecessária e problemas de manutenibilidade.",
+						"tech": [
+							"AI Coding Agents",
+							"Git",
+							"Code Review"
+						],
+						"highlight": true
+					}
+				]
+			},
+			{
+				"key": "design",
+				"num": "07",
+				"tag": "UX/UI & Design de Produto",
+				"title": "O design como parte do processo de desenvolvimento",
+				"summary": "Interfaces, protótipos e design systems focados em usabilidade e objetivos de negócio.",
+				"items": [
+					{
+						"title": "Design UX/UI",
+						"description": "Projeto interfaces claras e práticas focadas em usabilidade, objetivos de negócio e necessidades reais dos usuários.",
+						"tech": [
+							"Figma",
+							"UX/UI",
+							"Design Systems"
+						]
+					},
+					{
+						"title": "Wireframes e Prototipagem",
+						"description": "Transformo ideias em wireframes e protótipos interativos antes do desenvolvimento para validar estrutura e fluxos de usuário.",
+						"tech": [
+							"Figma",
+							"Wireframes",
+							"Prototyping"
+						]
+					},
+					{
+						"title": "Design Systems",
+						"description": "Crio sistemas visuais consistentes com componentes reutilizáveis, tipografia, espaçamento e padrões de interação.",
+						"tech": [
+							"Figma",
+							"Design Systems",
+							"Tailwind CSS"
+						]
+					},
+					{
+						"title": "Design Web Responsivo",
+						"description": "Crio interfaces que funcionam naturalmente em dispositivos móveis, tablets e desktops.",
+						"tech": [
+							"Responsive Design",
+							"Tailwind CSS",
+							"Bootstrap",
+							"CSS"
+						]
+					},
+					{
+						"title": "Melhoria de Interface e Acessibilidade",
+						"description": "Melhoro interfaces existentes com mais usabilidade, hierarquia visual, responsividade e acessibilidade.",
+						"tech": [
+							"UX/UI",
+							"Accessibility",
+							"Responsive Design",
+							"CSS"
+						]
+					}
+				]
+			},
+			{
+				"key": "mobile",
+				"num": "08",
+				"tag": "Desenvolvimento Móvel",
+				"title": "Apps móveis para negócios e operações de campo",
+				"summary": "Aplicações nativas e multiplataforma para coleta de dados, estoque e fluxos de trabalho internos.",
+				"items": [
+					{
+						"title": "Aplicações Android",
+						"description": "Desenvolvo aplicações Android para cenários de negócio, utilidade e gestão de dados.",
+						"tech": [
+							"Android Studio",
+							"Java",
+							"Python",
+							"Kivy/KivyMD"
+						]
+					},
+					{
+						"title": "Aplicações Multiplataforma",
+						"description": "Construo aplicações com tecnologias que permitem reutilizar código e lógica entre plataformas quando apropriado.",
+						"tech": [
+							"Kivy/KivyMD",
+							"Python",
+							"Android"
+						]
+					},
+					{
+						"title": "Apps Móveis de Negócio",
+						"description": "Crio ferramentas móveis para registro, estoque, operações de campo, coleta de dados e fluxos de trabalho internos.",
+						"tech": [
+							"Python",
+							"Kivy",
+							"SQLite",
+							"Android"
+						]
+					}
+				]
+			}
+		],
+		"quick": {
+			"title": "Serviços Rápidos",
+			"subtitle": "Precisa de algo menor? Também assumo tarefas técnicas pontuais e projetos de curto prazo.",
+			"items": [
+				"Corrigir um problema de PHP / Laravel",
+				"Corrigir um problema de WordPress / WooCommerce",
+				"Implantar uma aplicação em um VPS",
+				"Conteinerizar uma aplicação com Docker",
+				"Configurar um servidor Linux",
+				"Integrar uma API",
+				"Criar um recurso personalizado no WordPress",
+				"Personalizar Odoo",
+				"Otimizar um banco de dados",
+				"Revisar código gerado por IA",
+				"Automatizar um fluxo com n8n",
+				"Melhorar o design responsivo",
+				"Migrar um site ou aplicação",
+				"Diagnosticar um problema em produção"
+			]
+		},
+		"cta": {
+			"title": "Tem um problema para resolver?",
+			"subtitle": "Descreva sua ideia, problema ou projeto. Vamos transformá-lo em uma solução funcional.",
+			"button": "Iniciar uma conversa",
+			"seeProjects": "Ver projetos relacionados"
+		}
 	},
 	"location": {
 		"badge": "Nota profissional",
@@ -199,10 +713,22 @@
 			"footnote": "Cuba · Ambiente estável. Objetivo: um contrato que possibilite visto/realocação legal se o projeto exigir."
 		},
 		"points": [
-			{ "title": "Modalidade flexível", "desc": "Remoto, híbrido ou presencial conforme o cargo" },
-			{ "title": "Ambiente estável", "desc": "Condições de trabalho adequadas e backup elétrico" },
-			{ "title": "Conectividade estável", "desc": "Internet regularmente estável para trabalho remoto" },
-			{ "title": "Realocação internacional", "desc": "Interesse em relocation, visto ou residência de trabalho" }
+			{
+				"title": "Modalidade flexível",
+				"desc": "Remoto, híbrido ou presencial conforme o cargo"
+			},
+			{
+				"title": "Ambiente estável",
+				"desc": "Condições de trabalho adequadas e backup elétrico"
+			},
+			{
+				"title": "Conectividade estável",
+				"desc": "Internet regularmente estável para trabalho remoto"
+			},
+			{
+				"title": "Realocação internacional",
+				"desc": "Interesse em relocation, visto ou residência de trabalho"
+			}
 		],
 		"cta": "Vamos falar sobre seu projeto"
 	},

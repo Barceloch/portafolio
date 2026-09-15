@@ -15,7 +15,7 @@
 <footer id="contact" class="border-t border-base-300/40 bg-base-200/40">
 	<div class="mx-auto max-w-6xl px-4 py-14 sm:px-6">
 		<div class="flex items-center gap-4">
-			<span class="font-mono text-xs uppercase tracking-[0.3em] text-primary">05 // contacto</span>
+			<span class="font-mono text-xs uppercase tracking-[0.3em] text-primary">06 // contacto</span>
 			<span class="h-px flex-1 bg-base-300/40"></span>
 		</div>
 
@@ -37,6 +37,7 @@
 					<li><a href="#about" class="text-base-content/75 transition-colors hover:text-primary">→ {m.nav.about}</a></li>
 					<li><a href="#skills" class="text-base-content/75 transition-colors hover:text-primary">→ {m.nav.skills}</a></li>
 					<li><a href="#projects" class="text-base-content/75 transition-colors hover:text-primary">→ {m.nav.projects}</a></li>
+					<li><a href="#services" class="text-base-content/75 transition-colors hover:text-primary">→ {m.nav.services}</a></li>
 					<li><a href="#location" class="text-base-content/75 transition-colors hover:text-primary">→ {m.nav.location}</a></li>
 				</ul>
 			</div>

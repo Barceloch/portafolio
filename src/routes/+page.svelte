@@ -5,6 +5,7 @@
 	import About from '$lib/components/About.svelte';
 	import Skills from '$lib/components/Skills.svelte';
 	import Projects from '$lib/components/Projects.svelte';
+	import Services from '$lib/components/Services.svelte';
 	import LocationNote from '$lib/components/LocationNote.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 </script>
@@ -16,6 +17,7 @@
 	<About />
 	<Skills />
 	<Projects />
+	<Services />
 	<LocationNote />
 </main>
 <Footer />

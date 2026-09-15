@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { messages } from '$lib/i18n';
-	import { gsap, prefersReducedMotion } from '$lib/utils/anim';
+	import { gsap, prefersReducedMotion, ScrollTrigger } from '$lib/utils/anim';
 	import { iconFor, skillColors } from '$lib/data/skillIcons';
 
 	let m = $derived($messages);
@@ -21,7 +21,16 @@
 		const el = track;
 		if (!el || prefersReducedMotion()) return;
 		const ctx = gsap.context(() => {
-			gsap.to(el, { xPercent: -50, duration: 42, ease: 'none', repeat: -1 });
+			const tween = gsap.to(el, { xPercent: -50, duration: 42, ease: 'none', repeat: -1 });
+			ScrollTrigger.create({
+				trigger: el,
+				start: 'top bottom',
+				end: 'bottom top',
+				onToggle: (self) => {
+					if (self.isActive) tween.play();
+					else tween.pause();
+				}
+			});
 		}, el);
 		return () => ctx.revert();
 	});

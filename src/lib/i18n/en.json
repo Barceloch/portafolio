@@ -4,6 +4,7 @@
 		"about": "About",
 		"skills": "Skills",
 		"projects": "Projects",
+		"services": "Services",
 		"location": "Availability",
 		"contact": "Contact"
 	},
@@ -63,7 +64,7 @@
 			"design": "Design & Product"
 		},
 		"languages": ["C/C++", "Go", "Java", "Python", "JavaScript", "PHP", "Bash", "HTML", "CSS"],
-		"frameworks": ["Odoo", "ERPNext", "Django", "FastAPI", "Flask", "Echo (Go)", "WordPress", "CakePHP", "Laravel", "Next.js", "Vue", "Svelte", "Quasar", "React", "jQuery", "Astro", "Kivy/KivyMD", "Sketchware", "MIT App Inventor", "Android Studio", "QT", "GTK", "Tkinter", "Tailwind CSS", "Bootstrap"],
+		"frameworks": ["Odoo", "ERPNext", "Django", "FastAPI", "Flask", "Echo (Go)", "WordPress", "Laravel", "Next.js", "Vue", "Svelte", "Quasar", "React", "jQuery", "Astro", "Kivy/KivyMD", "Sketchware", "MIT App Inventor", "Android Studio", "QT", "GTK", "Tkinter", "Tailwind CSS", "Bootstrap"],
 		"data": ["SQL", "NoSQL (MongoDB)", "Firebase", "Appwrite", "Strapi", "Corteza Server"],
 		"devops": ["Git", "Docker", "AWS", "VPS", "cPanel", "hPanel", "CI/CD Pipelines", "Pfsense", "Proxmox", "Zentyal"],
 		"advanced": ["Kubernetes", "Apache Kafka", "TensorFlow", "n8n", "AI-First — thorough review of agent-generated code"],
@@ -83,7 +84,11 @@
 				"title": "WCigars",
 				"category": "Web",
 				"description": "Premium e-commerce for Cuban cigars. Svelte frontend with optimized shopping experience.",
-				"stack": ["Svelte", "Tailwind", "Stripe"],
+				"stack": [
+					"Svelte",
+					"Tailwind",
+					"Stripe"
+				],
 				"link": "https://wcigars.com/",
 				"github": null
 			},
@@ -91,7 +96,11 @@
 				"title": "Moreno Premium",
 				"category": "Web",
 				"description": "High-impact corporate site for a premium brand. Built with Elementor, WooCommerce catalog and deep customization.",
-				"stack": ["WordPress", "Elementor", "WooCommerce"],
+				"stack": [
+					"WordPress",
+					"Elementor",
+					"WooCommerce"
+				],
 				"link": "https://morenopremium.com/",
 				"github": null
 			},
@@ -99,7 +108,12 @@
 				"title": "Sofisticato Design",
 				"category": "Web",
 				"description": "Design website for tobacco brands: cigar rings, humidors and accessories. Custom Gutenberg blocks, interactive gallery and responsive design with Elementor.",
-				"stack": ["WordPress", "Elementor", "Gutenberg", "WooCommerce"],
+				"stack": [
+					"WordPress",
+					"Elementor",
+					"Gutenberg",
+					"WooCommerce"
+				],
 				"link": "https://sofisticatodesign.com/",
 				"github": null
 			},
@@ -107,7 +121,11 @@
 				"title": "Miami Experience Tours",
 				"category": "Web",
 				"description": "Tour booking platform in Miami. Payment gateway and real-time calendar integration.",
-				"stack": ["WordPress", "WooCommerce", "PHP"],
+				"stack": [
+					"WordPress",
+					"WooCommerce",
+					"PHP"
+				],
 				"link": "https://miamiexperiencetours.com/",
 				"github": null
 			},
@@ -115,7 +133,11 @@
 				"title": "Alamo Building Materials",
 				"category": "Web",
 				"description": "Corporate site for a Texas building materials company. Catalog & quote builder.",
-				"stack": ["WordPress", "Elementor", "PHP"],
+				"stack": [
+					"WordPress",
+					"Elementor",
+					"PHP"
+				],
 				"link": "https://alamobuildingmaterials.com/",
 				"github": null
 			},
@@ -123,7 +145,11 @@
 				"title": "APKLIS — barcelo",
 				"category": "Mobile",
 				"description": "Verified developer on APKLIS (Cuban Android store). Native apps with thousands of downloads.",
-				"stack": ["Android", "Java", "APKLIS"],
+				"stack": [
+					"Android",
+					"Java",
+					"APKLIS"
+				],
 				"link": "https://www.apklis.cu/developer/barcelo",
 				"github": null
 			},
@@ -131,7 +157,11 @@
 				"title": "RegCEl-M",
 				"category": "Mobile",
 				"description": "Mobile app for registry and control. Built with Kivy/Python for Android.",
-				"stack": ["Python", "Kivy", "SQLite"],
+				"stack": [
+					"Python",
+					"Kivy",
+					"SQLite"
+				],
 				"link": "#",
 				"github": "https://github.com/Barceloch/regcel_M"
 			},
@@ -139,7 +169,11 @@
 				"title": "Yayabo Linux",
 				"category": "Open Source",
 				"description": "Remastered Cuban GNU/Linux distro. Optimized for low-resource environments.",
-				"stack": ["Linux", "Debian", "Bash"],
+				"stack": [
+					"Linux",
+					"Debian",
+					"Bash"
+				],
 				"link": "https://www.ecured.cu/Yayabo_Linux",
 				"github": null
 			},
@@ -147,7 +181,11 @@
 				"title": "Heysiweb",
 				"category": "Open Source",
 				"description": "Educational web platform built with Django. Content and user management.",
-				"stack": ["Django", "Python", "PostgreSQL"],
+				"stack": [
+					"Django",
+					"Python",
+					"PostgreSQL"
+				],
 				"link": "#",
 				"github": "https://github.com/Barceloch/heysiweb"
 			},
@@ -155,7 +193,11 @@
 				"title": "RegCEl (C++/Qt4)",
 				"category": "Open Source",
 				"description": "Desktop app for record management. Native Qt4 interface.",
-				"stack": ["C++", "Qt4", "SQLite"],
+				"stack": [
+					"C++",
+					"Qt4",
+					"SQLite"
+				],
 				"link": "#",
 				"github": "https://github.com/Barceloch/regcel"
 			},
@@ -163,7 +205,11 @@
 				"title": "cu_delivery_filter",
 				"category": "Open Source",
 				"description": "Odoo plugin that optimizes delivery filters for logistics in Cuba.",
-				"stack": ["Odoo", "Python", "PostgreSQL"],
+				"stack": [
+					"Odoo",
+					"Python",
+					"PostgreSQL"
+				],
 				"link": "#",
 				"github": "https://github.com/Barceloch/cu_delivery_filter"
 			},
@@ -171,7 +217,12 @@
 				"title": "MarketRey",
 				"category": "Web",
 				"description": "Collaborative online store built with S-Cart (Laravel e-commerce). Catalog, cart, payment gateway and admin panel.",
-				"stack": ["Laravel", "S-Cart", "PHP", "MySQL"],
+				"stack": [
+					"Laravel",
+					"S-Cart",
+					"PHP",
+					"MySQL"
+				],
 				"link": "https://www.marketrey.com/",
 				"github": null
 			},
@@ -179,11 +230,474 @@
 				"title": "Entregado",
 				"category": "Web",
 				"description": "Collaborative messaging and delivery platform built with Laravel. Shipment management, real-time tracking and admin dashboard.",
-				"stack": ["Laravel", "PHP", "MySQL", "JavaScript"],
+				"stack": [
+					"Laravel",
+					"PHP",
+					"MySQL",
+					"JavaScript"
+				],
 				"link": "https://entregado.pixelalt.com/",
 				"github": null
 			}
 		]
+	},
+	"services": {
+		"overline": "services",
+		"title": "Services",
+		"subtitle": "Digital solutions built around real business needs.",
+		"categoriesLabel": "categories",
+		"intro1": "I don't start with a technology.",
+		"intro2": "I start with the problem.",
+		"introText": "I design and develop practical digital solutions that help businesses improve their processes, reach customers and grow.",
+		"categories": [
+			{
+				"key": "web",
+				"num": "01",
+				"tag": "Web Development",
+				"title": "Custom web applications built around your processes",
+				"summary": "From marketing sites and business platforms to backend systems and legacy modernization.",
+				"items": [
+					{
+						"title": "Custom Web Applications",
+						"description": "Build tailored web applications adapted to the specific processes and needs of your business.",
+						"tech": [
+							"Laravel",
+							"Django",
+							"FastAPI",
+							"Svelte",
+							"Vue",
+							"React"
+						]
+					},
+					{
+						"title": "Business Web Platforms",
+						"description": "Develop complete web platforms for managing customers, products, users, orders, data and internal processes.",
+						"tech": [
+							"PHP",
+							"Python",
+							"Laravel",
+							"Django",
+							"PostgreSQL",
+							"MySQL",
+							"JavaScript"
+						]
+					},
+					{
+						"title": "Backend Development",
+						"description": "Design and develop reliable backend systems with clean architecture, business logic and scalable APIs.",
+						"tech": [
+							"PHP",
+							"Python",
+							"Go",
+							"Laravel",
+							"Django",
+							"FastAPI"
+						]
+					},
+					{
+						"title": "Application Modernization",
+						"description": "Improve, modernize or migrate existing applications without necessarily rebuilding everything from scratch.",
+						"tech": [
+							"PHP",
+							"Python",
+							"JavaScript",
+							"Laravel",
+							"Django",
+							"Docker",
+							"Git"
+						]
+					}
+				]
+			},
+			{
+				"key": "ecommerce",
+				"num": "02",
+				"tag": "Ecommerce & WordPress",
+				"title": "Online stores that actually sell",
+				"summary": "Complete stores, WooCommerce customization and integrations connected to your business.",
+				"items": [
+					{
+						"title": "Online Stores",
+						"description": "Create complete online stores with product catalogs, shopping carts, checkout, payments and administration.",
+						"tech": [
+							"WordPress",
+							"WooCommerce",
+							"Svelte",
+							"Laravel",
+							"PHP"
+						]
+					},
+					{
+						"title": "WooCommerce Customization",
+						"description": "Customize WooCommerce to match specific business workflows, products, checkout processes and integrations.",
+						"tech": [
+							"WordPress",
+							"WooCommerce",
+							"PHP",
+							"JavaScript"
+						]
+					},
+					{
+						"title": "Ecommerce Integrations",
+						"description": "Connect online stores with payment gateways, external APIs, calendars, logistics systems and third-party services.",
+						"tech": [
+							"WooCommerce",
+							"PHP",
+							"REST APIs",
+							"JavaScript"
+						]
+					},
+					{
+						"title": "Website Improvements",
+						"description": "Improve existing websites and stores through better performance, responsiveness, usability and functionality.",
+						"tech": [
+							"WordPress",
+							"WooCommerce",
+							"Elementor",
+							"Gutenberg",
+							"PHP",
+							"CSS"
+						]
+					}
+				]
+			},
+			{
+				"key": "erp",
+				"num": "03",
+				"tag": "Business Systems & ERP",
+				"title": "Management systems that simplify operations",
+				"summary": "Odoo, ERPNext and custom systems adapted to your real workflows.",
+				"items": [
+					{
+						"title": "Odoo Customization",
+						"description": "Adapt Odoo to the real workflows and operational needs of your business.",
+						"tech": [
+							"Odoo",
+							"Python",
+							"PostgreSQL",
+							"XML"
+						]
+					},
+					{
+						"title": "Custom Odoo Modules",
+						"description": "Develop custom Odoo modules for sales, inventory, ecommerce, logistics and business processes.",
+						"tech": [
+							"Odoo",
+							"Python",
+							"PostgreSQL"
+						]
+					},
+					{
+						"title": "ERPNext Solutions",
+						"description": "Customize ERPNext to centralize business operations and simplify everyday management.",
+						"tech": [
+							"ERPNext",
+							"Python",
+							"MariaDB",
+							"JavaScript"
+						]
+					},
+					{
+						"title": "Custom Business Systems",
+						"description": "Build focused management systems when a full ERP is unnecessary or when a business requires a highly specific workflow.",
+						"tech": [
+							"Python",
+							"PHP",
+							"Laravel",
+							"Django",
+							"SQL",
+							"JavaScript"
+						]
+					}
+				]
+			},
+			{
+				"key": "backend",
+				"num": "04",
+				"tag": "Backend & API Integration",
+				"title": "Reliable backends and connected systems",
+				"summary": "APIs, third-party integrations and databases that keep your applications running.",
+				"items": [
+					{
+						"title": "API Development",
+						"description": "Design and develop APIs that connect applications, databases, mobile apps and external services.",
+						"tech": [
+							"Laravel",
+							"Django",
+							"FastAPI",
+							"Flask",
+							"Go",
+							"REST"
+						]
+					},
+					{
+						"title": "Third-Party Integrations",
+						"description": "Connect your application with external platforms, payment services, APIs and business tools.",
+						"tech": [
+							"REST APIs",
+							"Webhooks",
+							"PHP",
+							"Python",
+							"JavaScript"
+						]
+					},
+					{
+						"title": "Database Design & Optimization",
+						"description": "Design, migrate and optimize databases for reliable and efficient applications.",
+						"tech": [
+							"PostgreSQL",
+							"MySQL",
+							"SQLite",
+							"MongoDB",
+							"SQL"
+						]
+					}
+				]
+			},
+			{
+				"key": "devops",
+				"num": "05",
+				"tag": "DevOps & Infrastructure",
+				"title": "From code to a running, reliable product",
+				"summary": "Deployment, Docker, Linux administration and migrations. You focus on the business while I handle the infrastructure.",
+				"items": [
+					{
+						"title": "VPS Setup & Deployment",
+						"description": "Configure and deploy web applications on Linux VPS environments with production-ready services.",
+						"tech": [
+							"GNU/Linux",
+							"VPS",
+							"Docker",
+							"Apache",
+							"Git",
+							"AWS"
+						]
+					},
+					{
+						"title": "Docker & Containerization",
+						"description": "Containerize applications and create reproducible development and production environments.",
+						"tech": [
+							"Docker",
+							"Docker Compose",
+							"Linux"
+						]
+					},
+					{
+						"title": "Linux Server Administration",
+						"description": "Configure, troubleshoot and maintain Linux servers, web services, databases and application environments.",
+						"tech": [
+							"GNU/Linux",
+							"Bash",
+							"Apache",
+							"VPS",
+							"cPanel",
+							"hPanel"
+						]
+					},
+					{
+						"title": "Application Migration",
+						"description": "Move websites, applications, databases and services between hosting environments with minimal disruption.",
+						"tech": [
+							"Linux",
+							"Docker",
+							"VPS",
+							"cPanel",
+							"hPanel",
+							"AWS"
+						]
+					},
+					{
+						"title": "CI/CD & Deployment Automation",
+						"description": "Automate testing and deployment workflows to make software delivery faster and more reliable.",
+						"tech": [
+							"Git",
+							"CI/CD",
+							"Docker",
+							"Linux"
+						]
+					}
+				]
+			},
+			{
+				"key": "automation",
+				"num": "06",
+				"tag": "Automation & AI",
+				"title": "Automation and AI applied with judgment",
+				"summary": "Practical automation, AI features and rigorous review of agent-generated code.",
+				"items": [
+					{
+						"title": "Business Automation",
+						"description": "Automate repetitive business tasks and connect different tools to reduce manual work and improve efficiency.",
+						"tech": [
+							"n8n",
+							"APIs",
+							"Webhooks",
+							"Python",
+							"JavaScript"
+						]
+					},
+					{
+						"title": "AI-Powered Applications",
+						"description": "Integrate practical AI capabilities into applications and business workflows where they provide real value.",
+						"tech": [
+							"AI APIs",
+							"Python",
+							"JavaScript",
+							"REST APIs"
+						]
+					},
+					{
+						"title": "Intelligent Workflow Automation",
+						"description": "Combine AI, APIs and automation tools to create workflows that process information and trigger actions automatically.",
+						"tech": [
+							"n8n",
+							"AI",
+							"APIs",
+							"Webhooks"
+						]
+					},
+					{
+						"title": "AI-Assisted Development",
+						"description": "Use modern AI development tools to accelerate implementation while maintaining human review, architecture control and code quality.",
+						"tech": [
+							"AI Coding Tools",
+							"Git",
+							"Code Review"
+						]
+					},
+					{
+						"title": "AI-Generated Code Review",
+						"description": "Review, debug and improve code generated with AI tools to identify errors, security issues, unnecessary complexity and maintainability problems.",
+						"tech": [
+							"AI Coding Agents",
+							"Git",
+							"Code Review"
+						],
+						"highlight": true
+					}
+				]
+			},
+			{
+				"key": "design",
+				"num": "07",
+				"tag": "UX/UI & Product Design",
+				"title": "Design as part of the development process",
+				"summary": "Interfaces, prototypes and design systems focused on usability and business goals.",
+				"items": [
+					{
+						"title": "UX/UI Design",
+						"description": "Design clear and practical interfaces focused on usability, business goals and real user needs.",
+						"tech": [
+							"Figma",
+							"UX/UI",
+							"Design Systems"
+						]
+					},
+					{
+						"title": "Wireframes & Prototyping",
+						"description": "Transform ideas into wireframes and interactive prototypes before development to validate structure and user flows.",
+						"tech": [
+							"Figma",
+							"Wireframes",
+							"Prototyping"
+						]
+					},
+					{
+						"title": "Design Systems",
+						"description": "Create consistent visual systems with reusable components, typography, spacing and interaction patterns.",
+						"tech": [
+							"Figma",
+							"Design Systems",
+							"Tailwind CSS"
+						]
+					},
+					{
+						"title": "Responsive Web Design",
+						"description": "Create interfaces that work naturally across mobile, tablet and desktop devices.",
+						"tech": [
+							"Responsive Design",
+							"Tailwind CSS",
+							"Bootstrap",
+							"CSS"
+						]
+					},
+					{
+						"title": "UI Improvement & Accessibility",
+						"description": "Improve existing interfaces through better usability, visual hierarchy, responsiveness and accessibility.",
+						"tech": [
+							"UX/UI",
+							"Accessibility",
+							"Responsive Design",
+							"CSS"
+						]
+					}
+				]
+			},
+			{
+				"key": "mobile",
+				"num": "08",
+				"tag": "Mobile Development",
+				"title": "Mobile apps for business and field operations",
+				"summary": "Native and cross-platform apps for data collection, inventory and internal workflows.",
+				"items": [
+					{
+						"title": "Android Applications",
+						"description": "Develop Android applications for business, utility and data-management scenarios.",
+						"tech": [
+							"Android Studio",
+							"Java",
+							"Python",
+							"Kivy/KivyMD"
+						]
+					},
+					{
+						"title": "Cross-Platform Applications",
+						"description": "Build applications using technologies that allow code and logic to be reused across platforms where appropriate.",
+						"tech": [
+							"Kivy/KivyMD",
+							"Python",
+							"Android"
+						]
+					},
+					{
+						"title": "Business Mobile Apps",
+						"description": "Create mobile tools for registration, inventory, field operations, data collection and internal business workflows.",
+						"tech": [
+							"Python",
+							"Kivy",
+							"SQLite",
+							"Android"
+						]
+					}
+				]
+			}
+		],
+		"quick": {
+			"title": "Quick Services",
+			"subtitle": "Need something smaller? I also take on focused technical tasks and short-term projects.",
+			"items": [
+				"Fix a PHP / Laravel issue",
+				"Fix a WordPress / WooCommerce issue",
+				"Deploy an application to a VPS",
+				"Dockerize an application",
+				"Configure a Linux server",
+				"Integrate an API",
+				"Create a custom WordPress feature",
+				"Customize Odoo",
+				"Optimize a database",
+				"Review AI-generated code",
+				"Automate a workflow with n8n",
+				"Improve responsive design",
+				"Migrate a website or application",
+				"Troubleshoot a production issue"
+			]
+		},
+		"cta": {
+			"title": "Have a problem to solve?",
+			"subtitle": "Describe your idea, problem or project. Let's turn it into a working solution.",
+			"button": "Start a conversation",
+			"seeProjects": "See related projects"
+		}
 	},
 	"location": {
 		"badge": "Professional note",
@@ -199,10 +713,22 @@
 			"footnote": "Cuba · Stable environment. Goal: a contract that enables a visa/legal relocation if the project requires it."
 		},
 		"points": [
-			{ "title": "Flexible work mode", "desc": "Remote, hybrid or on-site depending on the role" },
-			{ "title": "Stable environment", "desc": "Proper working conditions and power backup" },
-			{ "title": "Reliable connectivity", "desc": "Consistently stable internet for remote work" },
-			{ "title": "International relocation", "desc": "Interested in relocation, visa or work residency" }
+			{
+				"title": "Flexible work mode",
+				"desc": "Remote, hybrid or on-site depending on the role"
+			},
+			{
+				"title": "Stable environment",
+				"desc": "Proper working conditions and power backup"
+			},
+			{
+				"title": "Reliable connectivity",
+				"desc": "Consistently stable internet for remote work"
+			},
+			{
+				"title": "International relocation",
+				"desc": "Interested in relocation, visa or work residency"
+			}
 		],
 		"cta": "Let's discuss your project"
 	},

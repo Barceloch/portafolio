@@ -13,7 +13,7 @@
 <section id="location" class="border-t border-base-300/40 bg-base-100 py-20 lg:py-28">
 	<div class="mx-auto max-w-6xl px-4 sm:px-6">
 		<div use:reveal class="flex items-center gap-4">
-			<span class="font-mono text-xs uppercase tracking-[0.3em] text-primary">04 // disponibilidad</span>
+			<span class="font-mono text-xs uppercase tracking-[0.3em] text-primary">05 // disponibilidad</span>
 			<span class="h-px flex-1 bg-base-300/40"></span>
 		</div>
 

@@ -57,6 +57,7 @@
 			<a href="#about" class="btn btn-ghost btn-sm font-mono text-xs uppercase tracking-[0.2em] text-base-content/80 hover:text-base-content transition-colors">{m.nav.about}</a>
 			<a href="#skills" class="btn btn-ghost btn-sm font-mono text-xs uppercase tracking-[0.2em] text-base-content/80 hover:text-base-content transition-colors">{m.nav.skills}</a>
 			<a href="#projects" class="btn btn-ghost btn-sm font-mono text-xs uppercase tracking-[0.2em] text-base-content/80 hover:text-base-content transition-colors">{m.nav.projects}</a>
+			<a href="#services" class="btn btn-ghost btn-sm font-mono text-xs uppercase tracking-[0.2em] text-base-content/80 hover:text-base-content transition-colors">{m.nav.services}</a>
 			<a href="#location" class="btn btn-ghost btn-sm font-mono text-xs uppercase tracking-[0.2em] text-base-content/80 hover:text-base-content transition-colors">{m.nav.location}</a>
 			<a href="{base}/cv_ENG.pdf" target="_blank" rel="noopener" download class="btn btn-ghost btn-sm font-mono text-xs uppercase tracking-[0.2em] text-base-content/80 gap-1.5 hover:text-base-content transition-colors">
 				<Download class="h-3.5 w-3.5" />
@@ -130,6 +131,7 @@
 				<a href="#about" onclick={closeMenu} class="btn btn-ghost justify-start font-mono text-sm uppercase tracking-[0.2em]">{m.nav.about}</a>
 				<a href="#skills" onclick={closeMenu} class="btn btn-ghost justify-start font-mono text-sm uppercase tracking-[0.2em]">{m.nav.skills}</a>
 				<a href="#projects" onclick={closeMenu} class="btn btn-ghost justify-start font-mono text-sm uppercase tracking-[0.2em]">{m.nav.projects}</a>
+				<a href="#services" onclick={closeMenu} class="btn btn-ghost justify-start font-mono text-sm uppercase tracking-[0.2em]">{m.nav.services}</a>
 				<a href="#location" onclick={closeMenu} class="btn btn-ghost justify-start font-mono text-sm uppercase tracking-[0.2em]">{m.nav.location}</a>
 				<a href="{base}/cv_ENG.pdf" target="_blank" rel="noopener" download onclick={closeMenu} class="btn btn-ghost justify-start font-mono text-sm uppercase tracking-[0.2em] gap-2">
 					<Download class="h-4 w-4" />
