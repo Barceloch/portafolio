@@ -238,6 +238,19 @@
 				],
 				"link": "https://entregado.pixelalt.com/",
 				"github": null
+			},
+			{
+				"title": "Codixai",
+				"category": "Open Source",
+				"description": "Local-first CLI that audits a Git diff against a deterministic rule catalog, built for reviewing code produced by AI agents. Read-only analysis with evidence, baselines and SARIF export.",
+				"stack": [
+					"Go",
+					"Wails",
+					"Svelte",
+					"Tailwind"
+				],
+				"link": "#",
+				"github": "https://github.com/Barceloch/Codixai"
 			}
 		]
 	},
