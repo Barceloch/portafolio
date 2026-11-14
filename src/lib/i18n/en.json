@@ -251,6 +251,19 @@
 				],
 				"link": "#",
 				"github": "https://github.com/Barceloch/Codixai"
+			},
+			{
+				"title": "WP ECard Addons",
+				"category": "Open Source",
+				"description": "WordPress addon for ECard digital business cards. Adds visual themes, a universal action bar, QR codes and vCard 3.0 downloads without modifying ECard.",
+				"stack": [
+					"PHP",
+					"WordPress",
+					"Composer",
+					"JavaScript"
+				],
+				"link": "#",
+				"github": "https://github.com/Barceloch/WP-ECard-Addons"
 			}
 		]
 	},
