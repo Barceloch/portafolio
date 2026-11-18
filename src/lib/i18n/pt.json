@@ -264,6 +264,18 @@
 				],
 				"link": "#",
 				"github": "https://github.com/Barceloch/WP-ECard-Addons"
+			},
+			{
+				"title": "Ebizfy (demo)",
+				"category": "Web",
+				"description": "Projeto pessoal em desenvolvimento: um marketplace onde pessoas e negócios comercializam produtos e serviços, abrem seu próprio espaço de venda e geram renda pela internet. Catálogo, serviços, experiências com ingressos, grupos de compra e venda e busca em linguagem natural em vários países da América Latina.",
+				"stack": [
+					"SvelteKit",
+					"Tailwind CSS",
+					"DaisyUI"
+				],
+				"link": "https://demo.ebizfy.cloud",
+				"github": null
 			}
 		]
 	},
