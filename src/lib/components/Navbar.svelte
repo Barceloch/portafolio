@@ -3,7 +3,7 @@
 	import { messages, locale, setLocale } from '$lib/i18n';
 	import type { Locale } from '$lib/i18n';
 	import { base } from '$app/paths';
-	import { Menu, X, Globe, Download, Sun, Moon } from '@lucide/svelte';
+	import { Menu, X, Globe, Sun, Moon } from '@lucide/svelte';
 
 	let m = $derived($messages);
 	let currentLocale = $derived($locale);
@@ -17,8 +17,9 @@
 		theme = t === 'telemetry-light' ? 'telemetry-light' : 'telemetry';
 	});
 
-	function changeLocale(l: Locale) {
+	function changeLocale(l: Locale, event?: MouseEvent) {
 		setLocale(l);
+		if (event) (event.currentTarget as HTMLElement).blur();
 	}
 
 	function toggleTheme() {
@@ -59,30 +60,26 @@
 			<a href="#projects" class="btn btn-ghost btn-sm font-mono text-xs uppercase tracking-[0.2em] text-base-content/80 hover:text-base-content transition-colors">{m.nav.projects}</a>
 			<a href="#services" class="btn btn-ghost btn-sm font-mono text-xs uppercase tracking-[0.2em] text-base-content/80 hover:text-base-content transition-colors">{m.nav.services}</a>
 			<a href="#location" class="btn btn-ghost btn-sm font-mono text-xs uppercase tracking-[0.2em] text-base-content/80 hover:text-base-content transition-colors">{m.nav.location}</a>
-			<a href="{base}/cv_ENG.pdf" target="_blank" rel="noopener" download class="btn btn-ghost btn-sm font-mono text-xs uppercase tracking-[0.2em] text-base-content/80 gap-1.5 hover:text-base-content transition-colors">
-				<Download class="h-3.5 w-3.5" />
-				CV
-			</a>
 			<a href="#contact" class="btn btn-primary btn-sm ml-2 font-mono text-xs uppercase tracking-[0.2em] text-primary-content font-bold shadow-md shadow-primary/20">{m.nav.contact}</a>
 		</div>
 
 		<div class="flex items-center gap-1.5">
-			<div class="hidden items-center gap-0.5 rounded-lg border border-base-300 bg-base-200/60 p-1 font-mono sm:flex">
-				<button
-					onclick={() => changeLocale('es')}
-					class="rounded-md px-3 py-1.5 text-xs font-bold transition-all duration-300 {currentLocale === 'es'
-						? 'bg-primary text-primary-content shadow-md shadow-primary/20'
-						: 'text-base-content/80 hover:text-base-content hover:bg-base-300/50'}">ES</button>
-				<button
-					onclick={() => changeLocale('en')}
-					class="rounded-md px-3 py-1.5 text-xs font-bold transition-all duration-300 {currentLocale === 'en'
-						? 'bg-primary text-primary-content shadow-md shadow-primary/20'
-						: 'text-base-content/80 hover:text-base-content hover:bg-base-300/50'}">EN</button>
-				<button
-					onclick={() => changeLocale('pt')}
-					class="rounded-md px-3 py-1.5 text-xs font-bold transition-all duration-300 {currentLocale === 'pt'
-						? 'bg-primary text-primary-content shadow-md shadow-primary/20'
-						: 'text-base-content/80 hover:text-base-content hover:bg-base-300/50'}">PT</button>
+			<div class="dropdown dropdown-end hidden sm:block">
+				<div
+					tabindex="0"
+					role="button"
+					aria-label="Select language"
+					class="flex items-center rounded-lg border border-base-300 bg-base-200/60 p-1 font-mono transition-all duration-300 hover:bg-base-300/50"
+				>
+					<span class="rounded-md bg-primary px-3 py-1.5 text-xs font-bold text-primary-content shadow-md shadow-primary/20">
+						{currentLocale.toUpperCase()}
+					</span>
+				</div>
+				<ul class="dropdown-content menu bg-base-200 rounded-box z-10 mt-2 w-24 p-1.5 shadow-xl border border-base-300 font-mono">
+					<li><button onclick={(e) => changeLocale('es', e)} class={currentLocale === 'es' ? 'font-bold text-primary' : ''}>ES</button></li>
+					<li><button onclick={(e) => changeLocale('en', e)} class={currentLocale === 'en' ? 'font-bold text-primary' : ''}>EN</button></li>
+					<li><button onclick={(e) => changeLocale('pt', e)} class={currentLocale === 'pt' ? 'font-bold text-primary' : ''}>PT</button></li>
+				</ul>
 			</div>
 
 			<button
@@ -102,15 +99,11 @@
 					<Globe class="h-4 w-4" />
 				</div>
 				<ul class="dropdown-content menu bg-base-200 rounded-box z-10 mt-2 w-40 p-2 shadow-xl border border-base-300">
-					<li><button onclick={() => changeLocale('es')} class:font-bold={currentLocale === 'es'}>🇪🇸 Español</button></li>
-					<li><button onclick={() => changeLocale('en')} class:font-bold={currentLocale === 'en'}>🇺🇸 English</button></li>
-					<li><button onclick={() => changeLocale('pt')} class:font-bold={currentLocale === 'pt'}>🇧🇷 Português</button></li>
+					<li><button onclick={(e) => changeLocale('es', e)} class:font-bold={currentLocale === 'es'}>🇪🇸 Español</button></li>
+					<li><button onclick={(e) => changeLocale('en', e)} class:font-bold={currentLocale === 'en'}>🇺🇸 English</button></li>
+					<li><button onclick={(e) => changeLocale('pt', e)} class:font-bold={currentLocale === 'pt'}>🇧🇷 Português</button></li>
 				</ul>
 			</div>
-
-			<a href="{base}/cv_ENG.pdf" target="_blank" rel="noopener" download class="btn btn-ghost btn-sm btn-circle sm:hidden" aria-label="Download CV">
-				<Download class="h-4 w-4" />
-			</a>
 
 			<button onclick={() => (isMenuOpen = !isMenuOpen)} class="btn btn-ghost btn-sm btn-circle lg:hidden" aria-label="Menu">
 				{#if isMenuOpen}
@@ -133,10 +126,6 @@
 				<a href="#projects" onclick={closeMenu} class="btn btn-ghost justify-start font-mono text-sm uppercase tracking-[0.2em]">{m.nav.projects}</a>
 				<a href="#services" onclick={closeMenu} class="btn btn-ghost justify-start font-mono text-sm uppercase tracking-[0.2em]">{m.nav.services}</a>
 				<a href="#location" onclick={closeMenu} class="btn btn-ghost justify-start font-mono text-sm uppercase tracking-[0.2em]">{m.nav.location}</a>
-				<a href="{base}/cv_ENG.pdf" target="_blank" rel="noopener" download onclick={closeMenu} class="btn btn-ghost justify-start font-mono text-sm uppercase tracking-[0.2em] gap-2">
-					<Download class="h-4 w-4" />
-					{m.common.downloadCv}
-				</a>
 				<a href="#contact" onclick={closeMenu} class="btn btn-primary justify-start font-mono text-sm uppercase tracking-[0.2em] text-primary-content font-bold">{m.nav.contact}</a>
 				<div class="mt-3 flex gap-2 font-mono">
 					<button onclick={() => changeLocale('es')} class="btn btn-sm flex-1 font-bold {currentLocale === 'es' ? 'btn-primary text-primary-content' : 'btn-outline'}">ES</button>
