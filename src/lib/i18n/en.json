@@ -272,7 +272,10 @@
 				"stack": [
 					"SvelteKit",
 					"Tailwind CSS",
-					"DaisyUI"
+					"DaisyUI",
+					"Laravel",
+					"Python",
+					"PostgreSQL"
 				],
 				"link": "https://demo.ebizfy.cloud",
 				"github": null
